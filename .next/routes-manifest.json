@@ -1,0 +1,2876 @@
+{
+  "version": 3,
+  "pages404": true,
+  "caseSensitive": false,
+  "basePath": "",
+  "redirects": [
+    {
+      "source": "/:path+/",
+      "destination": "/:path+",
+      "internal": true,
+      "statusCode": 308,
+      "regex": "^(?:/((?:[^/]+?)(?:/(?:[^/]+?))*))/$"
+    },
+    {
+      "source": "/academia-international-college",
+      "destination": "/college/academia-international-college",
+      "statusCode": 308,
+      "regex": "^(?!/_next)/academia-international-college(?:/)?$"
+    },
+    {
+      "source": "/bachelor-of-arts-in-social-work-tribhuvan-university",
+      "destination": "/course/bachelor-of-arts-in-social-work-tribhuvan-university",
+      "statusCode": 308,
+      "regex": "^(?!/_next)/bachelor-of-arts-in-social-work-tribhuvan-university(?:/)?$"
+    },
+    {
+      "source": "/bba-tu",
+      "destination": "/course/bachelor-of-business-administration-tribhuvan-university",
+      "statusCode": 308,
+      "regex": "^(?!/_next)/bba-tu(?:/)?$"
+    },
+    {
+      "source": "/bbm-tu",
+      "destination": "/course/bachelor-of-business-management-tribhuvan-university",
+      "statusCode": 308,
+      "regex": "^(?!/_next)/bbm-tu(?:/)?$"
+    },
+    {
+      "source": "/bbs-tu",
+      "destination": "/course/bachelor-of-business-studies-tribhuvan-university",
+      "statusCode": 308,
+      "regex": "^(?!/_next)/bbs-tu(?:/)?$"
+    },
+    {
+      "source": "/bachelor-in-civil-engineering-tribhuvan-university",
+      "destination": "/course/bachelor-in-civil-engineering-tribhuvan-university",
+      "statusCode": 308,
+      "regex": "^(?!/_next)/bachelor-in-civil-engineering-tribhuvan-university(?:/)?$"
+    },
+    {
+      "source": "/bca-tu",
+      "destination": "/course/bachelor-of-computer-application-tribhuvan-university",
+      "statusCode": 308,
+      "regex": "^(?!/_next)/bca-tu(?:/)?$"
+    },
+    {
+      "source": "/bachelor-in-computer-engineering-tribhuvan-university",
+      "destination": "/course/bachelor-of-computer-engineering-tribhuvan-university",
+      "statusCode": 308,
+      "regex": "^(?!/_next)/bachelor-in-computer-engineering-tribhuvan-university(?:/)?$"
+    },
+    {
+      "source": "/bachelor-in-electronics-communication-and-information-engineering-tu",
+      "destination": "/course/bachelor-of-electronics-communication-and-information-engineering-tribhuvan-university",
+      "statusCode": 308,
+      "regex": "^(?!/_next)/bachelor-in-electronics-communication-and-information-engineering-tu(?:/)?$"
+    },
+    {
+      "source": "/bachelor-of-hotel-management-tribhuvan-university",
+      "destination": "/course/bachelor-of-hotel-management-tribhuvan-university",
+      "statusCode": 308,
+      "regex": "^(?!/_next)/bachelor-of-hotel-management-tribhuvan-university(?:/)?$"
+    },
+    {
+      "source": "/bim-tu",
+      "destination": "/course/bachelor-of-information-management-tribhuvan-university",
+      "statusCode": 308,
+      "regex": "^(?!/_next)/bim-tu(?:/)?$"
+    },
+    {
+      "source": "/tu-bit",
+      "destination": "/course/bachelor-of-information-technology-tribhuvan-university",
+      "statusCode": 308,
+      "regex": "^(?!/_next)/tu-bit(?:/)?$"
+    },
+    {
+      "source": "/bachelor-of-public-administration-tribhuvan-university",
+      "destination": "/course/bachelor-of-public-administration-tribhuvan-university",
+      "statusCode": 308,
+      "regex": "^(?!/_next)/bachelor-of-public-administration-tribhuvan-university(?:/)?$"
+    },
+    {
+      "source": "/bachelor-of-travel-and-tourism-management-tribhuvan-university",
+      "destination": "/course/bachelor-of-travel-and-tourism-management-tribhuvan-university",
+      "statusCode": 308,
+      "regex": "^(?!/_next)/bachelor-of-travel-and-tourism-management-tribhuvan-university(?:/)?$"
+    },
+    {
+      "source": "/bsc-csit-tu",
+      "destination": "/course/bsc-computer-science-and-information-technology-tribhuvan-university",
+      "statusCode": 308,
+      "regex": "^(?!/_next)/bsc-csit-tu(?:/)?$"
+    },
+    {
+      "source": "/master-of-business-studies-tribhuvan-university",
+      "destination": "/course/master-of-business-studies-tribhuvan-university",
+      "statusCode": 308,
+      "regex": "^(?!/_next)/master-of-business-studies-tribhuvan-university(?:/)?$"
+    },
+    {
+      "source": "/bba-nepal",
+      "destination": "/course/bachelor-of-business-administration-tribhuvan-university",
+      "statusCode": 308,
+      "regex": "^(?!/_next)/bba-nepal(?:/)?$"
+    },
+    {
+      "source": "/bachelor-of-arts-tribhuvan-university",
+      "destination": "/course/bachelor-of-arts-tribhuvan-university",
+      "statusCode": 308,
+      "regex": "^(?!/_next)/bachelor-of-arts-tribhuvan-university(?:/)?$"
+    },
+    {
+      "source": "/bba-pu",
+      "destination": "/course/bachelor-of-business-administration-pokhara-university",
+      "statusCode": 308,
+      "regex": "^(?!/_next)/bba-pu(?:/)?$"
+    },
+    {
+      "source": "/bba-in-banking-and-insurance-bba-bi-pokhara-university",
+      "destination": "/course/bba-banking-and-insurance-pokhara-university",
+      "statusCode": 308,
+      "regex": "^(?!/_next)/bba-in-banking-and-insurance-bba-bi-pokhara-university(?:/)?$"
+    },
+    {
+      "source": "/bba-in-travel-and-tourism-bba-tt-pokhara-university",
+      "destination": "/course/bba-travel-and-tourism-pokhara-university",
+      "statusCode": 308,
+      "regex": "^(?!/_next)/bba-in-travel-and-tourism-bba-tt-pokhara-university(?:/)?$"
+    },
+    {
+      "source": "/bachelor-of-computer-information-systems-bcis-pokhara-university",
+      "destination": "/course/bachelor-of-computer-system-information-technology-pokhara-university",
+      "statusCode": 308,
+      "regex": "^(?!/_next)/bachelor-of-computer-information-systems-bcis-pokhara-university(?:/)?$"
+    },
+    {
+      "source": "/himalaya-college-of-engineering",
+      "destination": "/college/himalaya-college-of-engineering",
+      "statusCode": 308,
+      "regex": "^(?!/_next)/himalaya-college-of-engineering(?:/)?$"
+    },
+    {
+      "source": "/ambition-college",
+      "destination": "/college/ambition-college",
+      "statusCode": 308,
+      "regex": "^(?!/_next)/ambition-college(?:/)?$"
+    },
+    {
+      "source": "/the-british-college",
+      "destination": "/college/the-british-college",
+      "statusCode": 308,
+      "regex": "^(?!/_next)/the-british-college(?:/)?$"
+    },
+    {
+      "source": "/sagarmatha-college-of-science-and-technology",
+      "destination": "/college/sagarmatha-college-of-science-and-technology",
+      "statusCode": 308,
+      "regex": "^(?!/_next)/sagarmatha-college-of-science-and-technology(?:/)?$"
+    },
+    {
+      "source": "/new-summit-college",
+      "destination": "/college/new-summit-college",
+      "statusCode": 308,
+      "regex": "^(?!/_next)/new-summit-college(?:/)?$"
+    },
+    {
+      "source": "/st-xaviers-college",
+      "destination": "/college/st-xaviers-college",
+      "statusCode": 308,
+      "regex": "^(?!/_next)/st-xaviers-college(?:/)?$"
+    },
+    {
+      "source": "/patan-multiple-campus",
+      "destination": "/college/patan-multiple-campus",
+      "statusCode": 308,
+      "regex": "^(?!/_next)/patan-multiple-campus(?:/)?$"
+    },
+    {
+      "source": "/academia-international-college",
+      "destination": "/college/academia-international-college",
+      "statusCode": 308,
+      "regex": "^(?!/_next)/academia-international-college(?:/)?$"
+    },
+    {
+      "source": "/amrit-science-campus",
+      "destination": "/college/amrit-science-campus",
+      "statusCode": 308,
+      "regex": "^(?!/_next)/amrit-science-campus(?:/)?$"
+    },
+    {
+      "source": "/prime-college",
+      "destination": "/college/prime-college",
+      "statusCode": 308,
+      "regex": "^(?!/_next)/prime-college(?:/)?$"
+    },
+    {
+      "source": "/kathmandu-college-of-technology",
+      "destination": "/college/kathmandu-college-of-technology",
+      "statusCode": 308,
+      "regex": "^(?!/_next)/kathmandu-college-of-technology(?:/)?$"
+    },
+    {
+      "source": "/swastik-college",
+      "destination": "/college/swastik-college",
+      "statusCode": 308,
+      "regex": "^(?!/_next)/swastik-college(?:/)?$"
+    },
+    {
+      "source": "/techspire-college",
+      "destination": "/college/techspire-college",
+      "statusCode": 308,
+      "regex": "^(?!/_next)/techspire-college(?:/)?$"
+    },
+    {
+      "source": "/reliance-college",
+      "destination": "/college/reliance-college",
+      "statusCode": 308,
+      "regex": "^(?!/_next)/reliance-college(?:/)?$"
+    },
+    {
+      "source": "/lord-buddha-education-foundation-lbef",
+      "destination": "/college/lord-buddha-education-foundation",
+      "statusCode": 308,
+      "regex": "^(?!/_next)/lord-buddha-education-foundation-lbef(?:/)?$"
+    },
+    {
+      "source": "/pascal-national-college",
+      "destination": "/college/pascal-national-college",
+      "statusCode": 308,
+      "regex": "^(?!/_next)/pascal-national-college(?:/)?$"
+    },
+    {
+      "source": "/aadim-national-college",
+      "destination": "/college/aadim-national-college",
+      "statusCode": 308,
+      "regex": "^(?!/_next)/aadim-national-college(?:/)?$"
+    },
+    {
+      "source": "/islington-college",
+      "destination": "/college/islington-college",
+      "statusCode": 308,
+      "regex": "^(?!/_next)/islington-college(?:/)?$"
+    },
+    {
+      "source": "/presidential-business-school",
+      "destination": "/college/presidential-graduate-school",
+      "statusCode": 308,
+      "regex": "^(?!/_next)/presidential-business-school(?:/)?$"
+    },
+    {
+      "source": "/iims-college",
+      "destination": "/college/iims-college",
+      "statusCode": 308,
+      "regex": "^(?!/_next)/iims-college(?:/)?$"
+    },
+    {
+      "source": "/indreni-college",
+      "destination": "/college/chitwan-college-of-technology",
+      "statusCode": 308,
+      "regex": "^(?!/_next)/indreni-college(?:/)?$"
+    },
+    {
+      "source": "/padmashree-college",
+      "destination": "/college/padmashree-college",
+      "statusCode": 308,
+      "regex": "^(?!/_next)/padmashree-college(?:/)?$"
+    },
+    {
+      "source": "/janamaitri-multiple-campus",
+      "destination": "/college/janamaitri-multiple-campus",
+      "statusCode": 308,
+      "regex": "^(?!/_next)/janamaitri-multiple-campus(?:/)?$"
+    },
+    {
+      "source": "/rajdhani-model-college",
+      "destination": "/college/rajdhani-model-college",
+      "statusCode": 308,
+      "regex": "^(?!/_next)/rajdhani-model-college(?:/)?$"
+    },
+    {
+      "source": "/nepalaya-college",
+      "destination": "/college/nepalaya-college",
+      "statusCode": 308,
+      "regex": "^(?!/_next)/nepalaya-college(?:/)?$"
+    },
+    {
+      "source": "/ramswarup-ramsagar-multiple-campus",
+      "destination": "/college/ramswarup-ramsagar-multiple-campus",
+      "statusCode": 308,
+      "regex": "^(?!/_next)/ramswarup-ramsagar-multiple-campus(?:/)?$"
+    },
+    {
+      "source": "/everest-innovative-college",
+      "destination": "/college/everest-innovative-college",
+      "statusCode": 308,
+      "regex": "^(?!/_next)/everest-innovative-college(?:/)?$"
+    },
+    {
+      "source": "/cg-institute-of-management",
+      "destination": "/college/cg-institute-of-management",
+      "statusCode": 308,
+      "regex": "^(?!/_next)/cg-institute-of-management(?:/)?$"
+    },
+    {
+      "source": "/kathmandu-college-of-central-state",
+      "destination": "/college/kathmandu-college-of-central-state",
+      "statusCode": 308,
+      "regex": "^(?!/_next)/kathmandu-college-of-central-state(?:/)?$"
+    },
+    {
+      "source": "/forbes-college",
+      "destination": "/college/forbes-college",
+      "statusCode": 308,
+      "regex": "^(?!/_next)/forbes-college(?:/)?$"
+    },
+    {
+      "source": "/kfa-business-school",
+      "destination": "/college/kfa-business-school",
+      "statusCode": 308,
+      "regex": "^(?!/_next)/kfa-business-school(?:/)?$"
+    },
+    {
+      "source": "/samarpan-academy-institute-of-crisis-management-studies",
+      "destination": "/college/samarpan-academy-institute-of-crisis-management-studies",
+      "statusCode": 308,
+      "regex": "^(?!/_next)/samarpan-academy-institute-of-crisis-management-studies(?:/)?$"
+    },
+    {
+      "source": "/ed-mark-college",
+      "destination": "/college/ed-mark-college",
+      "statusCode": 308,
+      "regex": "^(?!/_next)/ed-mark-college(?:/)?$"
+    },
+    {
+      "source": "/aryan-school-of-engineering-management",
+      "destination": "/college/aryan-school-of-engineering-and-management",
+      "statusCode": 308,
+      "regex": "^(?!/_next)/aryan-school-of-engineering-management(?:/)?$"
+    },
+    {
+      "source": "/kathmandu-business-campus",
+      "destination": "/college/kathmandu-business-campus",
+      "statusCode": 308,
+      "regex": "^(?!/_next)/kathmandu-business-campus(?:/)?$"
+    },
+    {
+      "source": "/kathmandu-model-college",
+      "destination": "/college/kathmandu-model-college",
+      "statusCode": 308,
+      "regex": "^(?!/_next)/kathmandu-model-college(?:/)?$"
+    },
+    {
+      "source": "/itahari-namuna-college",
+      "destination": "/college/itahari-namuna-college",
+      "statusCode": 308,
+      "regex": "^(?!/_next)/itahari-namuna-college(?:/)?$"
+    },
+    {
+      "source": "/janak-college",
+      "destination": "/college/janak-college",
+      "statusCode": 308,
+      "regex": "^(?!/_next)/janak-college(?:/)?$"
+    },
+    {
+      "source": "/softwarica-college",
+      "destination": "/college/softwarica-college-of-it-and-e-commerce",
+      "statusCode": 308,
+      "regex": "^(?!/_next)/softwarica-college(?:/)?$"
+    },
+    {
+      "source": "/janapriya-multiple-campus",
+      "destination": "/college/janapriya-multiple-campus",
+      "statusCode": 308,
+      "regex": "^(?!/_next)/janapriya-multiple-campus(?:/)?$"
+    },
+    {
+      "source": "/national-law-college",
+      "destination": "/college/nepal-law-college",
+      "statusCode": 308,
+      "regex": "^(?!/_next)/national-law-college(?:/)?$"
+    },
+    {
+      "source": "/citizen-college",
+      "destination": "/college/citizen-college",
+      "statusCode": 308,
+      "regex": "^(?!/_next)/citizen-college(?:/)?$"
+    },
+    {
+      "source": "/k-and-k-international-college",
+      "destination": "/college/k-and-k-international-college",
+      "statusCode": 308,
+      "regex": "^(?!/_next)/k-and-k-international-college(?:/)?$"
+    },
+    {
+      "source": "/modern-nepal-college",
+      "destination": "/college/modern-nepal-college",
+      "statusCode": 308,
+      "regex": "^(?!/_next)/modern-nepal-college(?:/)?$"
+    },
+    {
+      "source": "/richmond-international-college",
+      "destination": "/college/richmond-international-college",
+      "statusCode": 308,
+      "regex": "^(?!/_next)/richmond-international-college(?:/)?$"
+    },
+    {
+      "source": "/shanker-dev-campus",
+      "destination": "/college/shanker-dev-campus",
+      "statusCode": 308,
+      "regex": "^(?!/_next)/shanker-dev-campus(?:/)?$"
+    },
+    {
+      "source": "/boston-international-college",
+      "destination": "/college/boston-international-college",
+      "statusCode": 308,
+      "regex": "^(?!/_next)/boston-international-college(?:/)?$"
+    },
+    {
+      "source": "/brixton-college",
+      "destination": "/college/brixton-college",
+      "statusCode": 308,
+      "regex": "^(?!/_next)/brixton-college(?:/)?$"
+    },
+    {
+      "source": "/la-grandee-international-college",
+      "destination": "/college/la-grandee-international-college",
+      "statusCode": 308,
+      "regex": "^(?!/_next)/la-grandee-international-college(?:/)?$"
+    },
+    {
+      "source": "/nepal-tourism-and-hotel-management-college",
+      "destination": "/college/nepal-tourism-and-hotel-management-college",
+      "statusCode": 308,
+      "regex": "^(?!/_next)/nepal-tourism-and-hotel-management-college(?:/)?$"
+    },
+    {
+      "source": "/nepal-western-management-and-engineering-college",
+      "destination": "/college/nepal-western-management-and-engineering-college",
+      "statusCode": 308,
+      "regex": "^(?!/_next)/nepal-western-management-and-engineering-college(?:/)?$"
+    },
+    {
+      "source": "/oxford-college-of-engineering-and-management",
+      "destination": "/college/oxford-college-of-engineering-and-management",
+      "statusCode": 308,
+      "regex": "^(?!/_next)/oxford-college-of-engineering-and-management(?:/)?$"
+    },
+    {
+      "source": "/pokhara-college-of-management",
+      "destination": "/college/pokhara-college-of-management",
+      "statusCode": 308,
+      "regex": "^(?!/_next)/pokhara-college-of-management(?:/)?$"
+    },
+    {
+      "source": "/pokhara-university-school-of-business",
+      "destination": "/college/pokhara-university-school-of-business",
+      "statusCode": 308,
+      "regex": "^(?!/_next)/pokhara-university-school-of-business(?:/)?$"
+    },
+    {
+      "source": "/ritz-college-of-engineering-and-management",
+      "destination": "/college/ritz-college-of-engineering-and-management",
+      "statusCode": 308,
+      "regex": "^(?!/_next)/ritz-college-of-engineering-and-management(?:/)?$"
+    },
+    {
+      "source": "/siddhartha-international-college",
+      "destination": "/college/siddhartha-international-college",
+      "statusCode": 308,
+      "regex": "^(?!/_next)/siddhartha-international-college(?:/)?$"
+    },
+    {
+      "source": "/valley-state-college",
+      "destination": "/college/valley-state-college",
+      "statusCode": 308,
+      "regex": "^(?!/_next)/valley-state-college(?:/)?$"
+    },
+    {
+      "source": "/little-angels-college-of-management",
+      "destination": "/college/little-angels-college-of-management",
+      "statusCode": 308,
+      "regex": "^(?!/_next)/little-angels-college-of-management(?:/)?$"
+    },
+    {
+      "source": "/green-peace-lincoln-college",
+      "destination": "/college/green-peace-lincoln-college",
+      "statusCode": 308,
+      "regex": "^(?!/_next)/green-peace-lincoln-college(?:/)?$"
+    },
+    {
+      "source": "/nepal-business-college",
+      "destination": "/college/nepal-business-college",
+      "statusCode": 308,
+      "regex": "^(?!/_next)/nepal-business-college(?:/)?$"
+    },
+    {
+      "source": "/virinchi-college",
+      "destination": "/college/virinchi-college",
+      "statusCode": 308,
+      "regex": "^(?!/_next)/virinchi-college(?:/)?$"
+    },
+    {
+      "source": "/the-london-college",
+      "destination": "/college/the-london-college",
+      "statusCode": 308,
+      "regex": "^(?!/_next)/the-london-college(?:/)?$"
+    },
+    {
+      "source": "/nepal-commerce-campus",
+      "destination": "/college/nepal-commerce-campus",
+      "statusCode": 308,
+      "regex": "^(?!/_next)/nepal-commerce-campus(?:/)?$"
+    },
+    {
+      "source": "/sunway-college",
+      "destination": "/college/sunway-college",
+      "statusCode": 308,
+      "regex": "^(?!/_next)/sunway-college(?:/)?$"
+    },
+    {
+      "source": "/liberty-college",
+      "destination": "/college/liberty-college",
+      "statusCode": 308,
+      "regex": "^(?!/_next)/liberty-college(?:/)?$"
+    },
+    {
+      "source": "/ismt-college",
+      "destination": "/college/ismt-college",
+      "statusCode": 308,
+      "regex": "^(?!/_next)/ismt-college(?:/)?$"
+    },
+    {
+      "source": "/model-institute-of-technology",
+      "destination": "/college/model-institute-of-technology",
+      "statusCode": 308,
+      "regex": "^(?!/_next)/model-institute-of-technology(?:/)?$"
+    },
+    {
+      "source": "/orchid-international-college",
+      "destination": "/college/orchid-international-college",
+      "statusCode": 308,
+      "regex": "^(?!/_next)/orchid-international-college(?:/)?$"
+    },
+    {
+      "source": "/imperial-business-college",
+      "destination": "/college/imperial-business-college",
+      "statusCode": 308,
+      "regex": "^(?!/_next)/imperial-business-college(?:/)?$"
+    },
+    {
+      "source": "/ace-institute-of-management",
+      "destination": "/college/ace-institute-of-management",
+      "statusCode": 308,
+      "regex": "^(?!/_next)/ace-institute-of-management(?:/)?$"
+    },
+    {
+      "source": "/victoria-international-college",
+      "destination": "/college/victoria-international-college",
+      "statusCode": 308,
+      "regex": "^(?!/_next)/victoria-international-college(?:/)?$"
+    },
+    {
+      "source": "/atlantic-international-college",
+      "destination": "/college/atlantic-international-college",
+      "statusCode": 308,
+      "regex": "^(?!/_next)/atlantic-international-college(?:/)?$"
+    },
+    {
+      "source": "/atharva-business-college",
+      "destination": "/college/atharva-business-college",
+      "statusCode": 308,
+      "regex": "^(?!/_next)/atharva-business-college(?:/)?$"
+    },
+    {
+      "source": "/nova-international-college",
+      "destination": "/college/nova-international-college",
+      "statusCode": 308,
+      "regex": "^(?!/_next)/nova-international-college(?:/)?$"
+    },
+    {
+      "source": "/pcps-college",
+      "destination": "/college/patan-college-for-professional-studies",
+      "statusCode": 308,
+      "regex": "^(?!/_next)/pcps-college(?:/)?$"
+    },
+    {
+      "source": "/itahari-international-college",
+      "destination": "/college/itahari-international-college",
+      "statusCode": 308,
+      "regex": "^(?!/_next)/itahari-international-college(?:/)?$"
+    },
+    {
+      "source": "/ncmt-college",
+      "destination": "/college/national-college-of-management-and-technical-science",
+      "statusCode": 308,
+      "regex": "^(?!/_next)/ncmt-college(?:/)?$"
+    },
+    {
+      "source": "/kathmandu-college-of-management",
+      "destination": "/college/kathmandu-college-of-management",
+      "statusCode": 308,
+      "regex": "^(?!/_next)/kathmandu-college-of-management(?:/)?$"
+    },
+    {
+      "source": "/aitm-college",
+      "destination": "/college/aitm-college",
+      "statusCode": 308,
+      "regex": "^(?!/_next)/aitm-college(?:/)?$"
+    },
+    {
+      "source": "/the-westminster-college",
+      "destination": "/college/the-westminster-college",
+      "statusCode": 308,
+      "regex": "^(?!/_next)/the-westminster-college(?:/)?$"
+    },
+    {
+      "source": "/excel-business-college",
+      "destination": "/college/excel-business-college",
+      "statusCode": 308,
+      "regex": "^(?!/_next)/excel-business-college(?:/)?$"
+    },
+    {
+      "source": "/gp-koirala-memorial-college",
+      "destination": "/college/gp-koirala-memorial-college",
+      "statusCode": 308,
+      "regex": "^(?!/_next)/gp-koirala-memorial-college(?:/)?$"
+    },
+    {
+      "source": "/central-college-of-business-management",
+      "destination": "college/central-college-of-business-management",
+      "statusCode": 308,
+      "regex": "^(?!/_next)/central-college-of-business-management(?:/)?$"
+    },
+    {
+      "source": "/camad-college",
+      "destination": "/college/camad-college",
+      "statusCode": 308,
+      "regex": "^(?!/_next)/camad-college(?:/)?$"
+    },
+    {
+      "source": "/brihaspati-college",
+      "destination": "/college/brihaspati-college",
+      "statusCode": 308,
+      "regex": "^(?!/_next)/brihaspati-college(?:/)?$"
+    },
+    {
+      "source": "/padma-kanya-multiple-campus",
+      "destination": "/college/padma-kanya-multiple-campus",
+      "statusCode": 308,
+      "regex": "^(?!/_next)/padma-kanya-multiple-campus(?:/)?$"
+    },
+    {
+      "source": "/morgan-international-college",
+      "destination": "/college/morgan-international-college",
+      "statusCode": 308,
+      "regex": "^(?!/_next)/morgan-international-college(?:/)?$"
+    },
+    {
+      "source": "/medhavi-college",
+      "destination": "/college/medhavi-college",
+      "statusCode": 308,
+      "regex": "^(?!/_next)/medhavi-college(?:/)?$"
+    },
+    {
+      "source": "/texas-college-of-management-and-it",
+      "destination": "/college/texas-college-of-management-and-it",
+      "statusCode": 308,
+      "regex": "^(?!/_next)/texas-college-of-management-and-it(?:/)?$"
+    },
+    {
+      "source": "/apollo-international-college",
+      "destination": "/college/apollo-international-college",
+      "statusCode": 308,
+      "regex": "^(?!/_next)/apollo-international-college(?:/)?$"
+    },
+    {
+      "source": "/sagarmatha-engineering-college",
+      "destination": "/college/sagarmatha-engineering-college",
+      "statusCode": 308,
+      "regex": "^(?!/_next)/sagarmatha-engineering-college(?:/)?$"
+    },
+    {
+      "source": "/swoyambhu-international-college",
+      "destination": "/college/swoyambhu-international-college",
+      "statusCode": 308,
+      "regex": "^(?!/_next)/swoyambhu-international-college(?:/)?$"
+    },
+    {
+      "source": "/saim-college",
+      "destination": "/college/saim-college",
+      "statusCode": 308,
+      "regex": "^(?!/_next)/saim-college(?:/)?$"
+    },
+    {
+      "source": "/nesfield-international-college",
+      "destination": "/college/nesfield-international-college",
+      "statusCode": 308,
+      "regex": "^(?!/_next)/nesfield-international-college(?:/)?$"
+    },
+    {
+      "source": "/vs-niketan-college",
+      "destination": "/college/vs-niketan-college",
+      "statusCode": 308,
+      "regex": "^(?!/_next)/vs-niketan-college(?:/)?$"
+    },
+    {
+      "source": "/kathford-international-college-of-engineering-and-management",
+      "destination": "/college/kathford-international-college-of-engineering-and-management",
+      "statusCode": 308,
+      "regex": "^(?!/_next)/kathford-international-college-of-engineering-and-management(?:/)?$"
+    },
+    {
+      "source": "/thames-international-college",
+      "destination": "/college/thames-international-college",
+      "statusCode": 308,
+      "regex": "^(?!/_next)/thames-international-college(?:/)?$"
+    },
+    {
+      "source": "/ashirwad-college",
+      "destination": "/college/ashirwad-college",
+      "statusCode": 308,
+      "regex": "^(?!/_next)/ashirwad-college(?:/)?$"
+    },
+    {
+      "source": "/saraswati-multiple-campus",
+      "destination": "/college/saraswati-multiple-campus",
+      "statusCode": 308,
+      "regex": "^(?!/_next)/saraswati-multiple-campus(?:/)?$"
+    },
+    {
+      "source": "/khwopa-engineering-college",
+      "destination": "/college/khwopa-engineering-college",
+      "statusCode": 308,
+      "regex": "^(?!/_next)/khwopa-engineering-college(?:/)?$"
+    },
+    {
+      "source": "/xavier-international-college",
+      "destination": "/college/xavier-international-college",
+      "statusCode": 308,
+      "regex": "^(?!/_next)/xavier-international-college(?:/)?$"
+    },
+    {
+      "source": "/nepal-engineering-college",
+      "destination": "/college/nepal-engineering-college",
+      "statusCode": 308,
+      "regex": "^(?!/_next)/nepal-engineering-college(?:/)?$"
+    },
+    {
+      "source": "/kantipur-college-of-management-and-information-technology",
+      "destination": "/college/kantipur-college-of-management-and-information-technology",
+      "statusCode": 308,
+      "regex": "^(?!/_next)/kantipur-college-of-management-and-information-technology(?:/)?$"
+    },
+    {
+      "source": "/nepal-mega-college",
+      "destination": "/college/nepal-mega-college",
+      "statusCode": 308,
+      "regex": "^(?!/_next)/nepal-mega-college(?:/)?$"
+    },
+    {
+      "source": "/samriddhi-college",
+      "destination": "/college/samriddhi-college",
+      "statusCode": 308,
+      "regex": "^(?!/_next)/samriddhi-college(?:/)?$"
+    },
+    {
+      "source": "/cosmos-college-of-management-and-technology",
+      "destination": "/college/cosmos-college-of-management-and-technology",
+      "statusCode": 308,
+      "regex": "^(?!/_next)/cosmos-college-of-management-and-technology(?:/)?$"
+    },
+    {
+      "source": "/triton-international-college",
+      "destination": "/college/triton-international-college",
+      "statusCode": 308,
+      "regex": "^(?!/_next)/triton-international-college(?:/)?$"
+    },
+    {
+      "source": "/kings-college",
+      "destination": "/college/kings-college",
+      "statusCode": 308,
+      "regex": "^(?!/_next)/kings-college(?:/)?$"
+    },
+    {
+      "source": "/malpi-international-college",
+      "destination": "/college/malpi-international-college",
+      "statusCode": 308,
+      "regex": "^(?!/_next)/malpi-international-college(?:/)?$"
+    },
+    {
+      "source": "/uniglobe-college",
+      "destination": "/college/uniglobe-college",
+      "statusCode": 308,
+      "regex": "^(?!/_next)/uniglobe-college(?:/)?$"
+    },
+    {
+      "source": "/texas-international-college",
+      "destination": "/college/texas-international-college",
+      "statusCode": 308,
+      "regex": "^(?!/_next)/texas-international-college(?:/)?$"
+    },
+    {
+      "source": "/united-college",
+      "destination": "/college/united-college",
+      "statusCode": 308,
+      "regex": "^(?!/_next)/united-college(?:/)?$"
+    },
+    {
+      "source": "/madan-bhandari-memorial-college",
+      "destination": "/college/madan-bhandari-memorial-college",
+      "statusCode": 308,
+      "regex": "^(?!/_next)/madan-bhandari-memorial-college(?:/)?$"
+    },
+    {
+      "source": "/platinum-management-college",
+      "destination": "/college/platinum-management-college",
+      "statusCode": 308,
+      "regex": "^(?!/_next)/platinum-management-college(?:/)?$"
+    },
+    {
+      "source": "/trinity-international-college",
+      "destination": "/college/trinity-international-college",
+      "statusCode": 308,
+      "regex": "^(?!/_next)/trinity-international-college(?:/)?$"
+    },
+    {
+      "source": "/pulchowk-campus",
+      "destination": "/college/pulchowk-campus",
+      "statusCode": 308,
+      "regex": "^(?!/_next)/pulchowk-campus(?:/)?$"
+    },
+    {
+      "source": "/thapathali-campus",
+      "destination": "/college/thapathali-campus",
+      "statusCode": 308,
+      "regex": "^(?!/_next)/thapathali-campus(?:/)?$"
+    },
+    {
+      "source": "/purwanchal-campus",
+      "destination": "/college/purwanchal-campus",
+      "statusCode": 308,
+      "regex": "^(?!/_next)/purwanchal-campus(?:/)?$"
+    },
+    {
+      "source": "/chitwan-engineering-campus",
+      "destination": "/college/chitwan-engineering-campus",
+      "statusCode": 308,
+      "regex": "^(?!/_next)/chitwan-engineering-campus(?:/)?$"
+    },
+    {
+      "source": "/pashchimanchal-campus",
+      "destination": "/college/pashchimanchal-campus",
+      "statusCode": 308,
+      "regex": "^(?!/_next)/pashchimanchal-campus(?:/)?$"
+    },
+    {
+      "source": "/southwestern-state-college",
+      "destination": "/college/southwestern-state-college",
+      "statusCode": 308,
+      "regex": "^(?!/_next)/southwestern-state-college(?:/)?$"
+    },
+    {
+      "source": "/new-millennium-college",
+      "destination": "/college/new-millennium-college",
+      "statusCode": 308,
+      "regex": "^(?!/_next)/new-millennium-college(?:/)?$"
+    },
+    {
+      "source": "/nims-college",
+      "destination": "/college/nims-college",
+      "statusCode": 308,
+      "regex": "^(?!/_next)/nims-college(?:/)?$"
+    },
+    {
+      "source": "/campion-college",
+      "destination": "/college/campion-college",
+      "statusCode": 308,
+      "regex": "^(?!/_next)/campion-college(?:/)?$"
+    },
+    {
+      "source": "/janakpur-engineering-college",
+      "destination": "/college/janakpur-engineering-college",
+      "statusCode": 308,
+      "regex": "^(?!/_next)/janakpur-engineering-college(?:/)?$"
+    },
+    {
+      "source": "/ratna-rajya-laxmi-campus",
+      "destination": "/college/ratna-rajya-laxmi-campus",
+      "statusCode": 308,
+      "regex": "^(?!/_next)/ratna-rajya-laxmi-campus(?:/)?$"
+    },
+    {
+      "source": "/nepal-college-of-management",
+      "destination": "/college/nepal-college-of-management",
+      "statusCode": 308,
+      "regex": "^(?!/_next)/nepal-college-of-management(?:/)?$"
+    },
+    {
+      "source": "/trichandra-multiple-campus",
+      "destination": "/college/trichandra-multiple-campus",
+      "statusCode": 308,
+      "regex": "^(?!/_next)/trichandra-multiple-campus(?:/)?$"
+    },
+    {
+      "source": "/kantipur-city-college",
+      "destination": "/college/kantipur-city-college",
+      "statusCode": 308,
+      "regex": "^(?!/_next)/kantipur-city-college(?:/)?$"
+    },
+    {
+      "source": "/st-lawrence-college",
+      "destination": "/college/st-lawrence-college",
+      "statusCode": 308,
+      "regex": "^(?!/_next)/st-lawrence-college(?:/)?$"
+    },
+    {
+      "source": "/herald-college",
+      "destination": "/college/herald-college",
+      "statusCode": 308,
+      "regex": "^(?!/_next)/herald-college(?:/)?$"
+    },
+    {
+      "source": "/devdaha-medical-college",
+      "destination": "/college/devdaha-medical-college",
+      "statusCode": 308,
+      "regex": "^(?!/_next)/devdaha-medical-college(?:/)?$"
+    },
+    {
+      "source": "/bhaktapur-multiple-campus",
+      "destination": "/college/bhaktapur-multiple-campus",
+      "statusCode": 308,
+      "regex": "^(?!/_next)/bhaktapur-multiple-campus(?:/)?$"
+    },
+    {
+      "source": "/mid-valley-international-college",
+      "destination": "/college/mid-valley-international-college",
+      "statusCode": 308,
+      "regex": "^(?!/_next)/mid-valley-international-college(?:/)?$"
+    },
+    {
+      "source": "/goldengate-international-college",
+      "destination": "/college/goldengate-international-college",
+      "statusCode": 308,
+      "regex": "^(?!/_next)/goldengate-international-college(?:/)?$"
+    },
+    {
+      "source": "/advanced-college-of-engineering-and-management",
+      "destination": "/college/advanced-college-of-engineering-and-management",
+      "statusCode": 308,
+      "regex": "^(?!/_next)/advanced-college-of-engineering-and-management(?:/)?$"
+    },
+    {
+      "source": "/kathmandu-university-school-of-management",
+      "destination": "/college/kathmandu-university-school-of-management",
+      "statusCode": 308,
+      "regex": "^(?!/_next)/kathmandu-university-school-of-management(?:/)?$"
+    },
+    {
+      "source": "/nami-college",
+      "destination": "/college/nami-college",
+      "statusCode": 308,
+      "regex": "^(?!/_next)/nami-college(?:/)?$"
+    },
+    {
+      "source": "/divya-gyan-college",
+      "destination": "/college/divya-gyan-college",
+      "statusCode": 308,
+      "regex": "^(?!/_next)/divya-gyan-college(?:/)?$"
+    },
+    {
+      "source": "/dav-college",
+      "destination": "/college/dav-college",
+      "statusCode": 308,
+      "regex": "^(?!/_next)/dav-college(?:/)?$"
+    },
+    {
+      "source": "/informatics-college-pokhara",
+      "destination": "/college/informatics-college-pokhara",
+      "statusCode": 308,
+      "regex": "^(?!/_next)/informatics-college-pokhara(?:/)?$"
+    },
+    {
+      "source": "/liverpool-international-college",
+      "destination": "/college/liverpool-international-college",
+      "statusCode": 308,
+      "regex": "^(?!/_next)/liverpool-international-college(?:/)?$"
+    },
+    {
+      "source": "/kathmandu-bernhardt-college",
+      "destination": "/college/kathmandu-bernhardt-college",
+      "statusCode": 308,
+      "regex": "^(?!/_next)/kathmandu-bernhardt-college(?:/)?$"
+    },
+    {
+      "source": "/eastern-college-of-engineering",
+      "destination": "/college/eastern-college-of-engineering",
+      "statusCode": 308,
+      "regex": "^(?!/_next)/eastern-college-of-engineering(?:/)?$"
+    },
+    {
+      "source": "/gandaki-college-of-engineering-and-science",
+      "destination": "/college/gandaki-college-of-engineering-and-science",
+      "statusCode": 308,
+      "regex": "^(?!/_next)/gandaki-college-of-engineering-and-science(?:/)?$"
+    },
+    {
+      "source": "/shubhashree-college-of-management",
+      "destination": "/college/shubhashree-college-of-management",
+      "statusCode": 308,
+      "regex": "^(?!/_next)/shubhashree-college-of-management(?:/)?$"
+    },
+    {
+      "source": "/kist-college",
+      "destination": "/college/kist-college",
+      "statusCode": 308,
+      "regex": "^(?!/_next)/kist-college(?:/)?$"
+    },
+    {
+      "source": "/canvas-international-college",
+      "destination": "/college/canvas-international-college",
+      "statusCode": 308,
+      "regex": "^(?!/_next)/canvas-international-college(?:/)?$"
+    },
+    {
+      "source": "/nepathya-college",
+      "destination": "/college/nepathya-college",
+      "statusCode": 308,
+      "regex": "^(?!/_next)/nepathya-college(?:/)?$"
+    },
+    {
+      "source": "/himalayan-college-of-management",
+      "destination": "/college/himalayan-college-of-management",
+      "statusCode": 308,
+      "regex": "^(?!/_next)/himalayan-college-of-management(?:/)?$"
+    },
+    {
+      "source": "/hillside-college-of-engineering",
+      "destination": "/college/hillside-college-of-engineering",
+      "statusCode": 308,
+      "regex": "^(?!/_next)/hillside-college-of-engineering(?:/)?$"
+    },
+    {
+      "source": "/college-of-information-technology-and-engineering",
+      "destination": "/college/college-of-information-technology-and-engineering",
+      "statusCode": 308,
+      "regex": "^(?!/_next)/college-of-information-technology-and-engineering(?:/)?$"
+    },
+    {
+      "source": "/milestone-international-college",
+      "destination": "/college/milestone-international-college",
+      "statusCode": 308,
+      "regex": "^(?!/_next)/milestone-international-college(?:/)?$"
+    },
+    {
+      "source": "/universal-college",
+      "destination": "/college/universal-college",
+      "statusCode": 308,
+      "regex": "^(?!/_next)/universal-college(?:/)?$"
+    },
+    {
+      "source": "/everest-college",
+      "destination": "/college/everest-college",
+      "statusCode": 308,
+      "regex": "^(?!/_next)/everest-college(?:/)?$"
+    },
+    {
+      "source": "/peoples-campus",
+      "destination": "/college/peoples-campus",
+      "statusCode": 308,
+      "regex": "^(?!/_next)/peoples-campus(?:/)?$"
+    },
+    {
+      "source": "/public-youth-campus",
+      "destination": "/college/public-youth-campus",
+      "statusCode": 308,
+      "regex": "^(?!/_next)/public-youth-campus(?:/)?$"
+    },
+    {
+      "source": "/nepal-law-campus",
+      "destination": "/college/nepal-law-campus",
+      "statusCode": 308,
+      "regex": "^(?!/_next)/nepal-law-campus(?:/)?$"
+    },
+    {
+      "source": "/nagarjuna-college-of-information-technology",
+      "destination": "/college/nagarjuna-college-of-information-technology",
+      "statusCode": 308,
+      "regex": "^(?!/_next)/nagarjuna-college-of-information-technology(?:/)?$"
+    },
+    {
+      "source": "/quest-international-college",
+      "destination": "/college/quest-international-college",
+      "statusCode": 308,
+      "regex": "^(?!/_next)/quest-international-college(?:/)?$"
+    },
+    {
+      "source": "/bluebird-college",
+      "destination": "/college/bluebird-college",
+      "statusCode": 308,
+      "regex": "^(?!/_next)/bluebird-college(?:/)?$"
+    },
+    {
+      "source": "/national-college-of-engineering",
+      "destination": "/college/national-college-of-engineering",
+      "statusCode": 308,
+      "regex": "^(?!/_next)/national-college-of-engineering(?:/)?$"
+    },
+    {
+      "source": "/kantipur-engineering-college",
+      "destination": "/college/kantipur-engineering-college",
+      "statusCode": 308,
+      "regex": "^(?!/_next)/kantipur-engineering-college(?:/)?$"
+    },
+    {
+      "source": "/kathmandu-engineering-college",
+      "destination": "/college/kathmandu-engineering-college",
+      "statusCode": 308,
+      "regex": "^(?!/_next)/kathmandu-engineering-college(?:/)?$"
+    },
+    {
+      "source": "/birat-kshitiz-college",
+      "destination": "/college/birat-kshitiz-college",
+      "statusCode": 308,
+      "regex": "^(?!/_next)/birat-kshitiz-college(?:/)?$"
+    },
+    {
+      "source": "/ismt-college-chitwan",
+      "destination": "/college/ismt-college-chitwan",
+      "statusCode": 308,
+      "regex": "^(?!/_next)/ismt-college-chitwan(?:/)?$"
+    },
+    {
+      "source": "/deerwalk-institute-of-technology",
+      "destination": "/college/deerwalk-institute-of-technology",
+      "statusCode": 308,
+      "regex": "^(?!/_next)/deerwalk-institute-of-technology(?:/)?$"
+    },
+    {
+      "source": "/vedas-college",
+      "destination": "/college/vedas-college",
+      "statusCode": 308,
+      "regex": "^(?!/_next)/vedas-college(?:/)?$"
+    },
+    {
+      "source": "/ismt-college-pokhara",
+      "destination": "/college/ismt-college-pokhara",
+      "statusCode": 308,
+      "regex": "^(?!/_next)/ismt-college-pokhara(?:/)?$"
+    },
+    {
+      "source": "/ismt-college-biratnagar",
+      "destination": "/college/ismt-college-biratnagar",
+      "statusCode": 308,
+      "regex": "^(?!/_next)/ismt-college-biratnagar(?:/)?$"
+    },
+    {
+      "source": "/ismt-college-butwal",
+      "destination": "/college/ismt-college-butwal",
+      "statusCode": 308,
+      "regex": "^(?!/_next)/ismt-college-butwal(?:/)?$"
+    },
+    {
+      "source": "/lalitpur-engineering-college",
+      "destination": "/college/lalitpur-engineering-college",
+      "statusCode": 308,
+      "regex": "^(?!/_next)/lalitpur-engineering-college(?:/)?$"
+    },
+    {
+      "source": "/national-college-of-computer-studies",
+      "destination": "/college/national-college-of-computer-studies",
+      "statusCode": 308,
+      "regex": "^(?!/_next)/national-college-of-computer-studies(?:/)?$"
+    },
+    {
+      "source": "/lumbini-ict-campus",
+      "destination": "/college/lumbini-ict-campus",
+      "statusCode": 308,
+      "regex": "^(?!/_next)/lumbini-ict-campus(?:/)?$"
+    },
+    {
+      "source": "/phoenix-college-of-management",
+      "destination": "/college/phoenix-college-of-management",
+      "statusCode": 308,
+      "regex": "^(?!/_next)/phoenix-college-of-management(?:/)?$"
+    },
+    {
+      "source": "/asian-school-of-management-and-technology",
+      "destination": "/college/asian-school-of-management-and-technology",
+      "statusCode": 308,
+      "regex": "^(?!/_next)/asian-school-of-management-and-technology(?:/)?$"
+    },
+    {
+      "source": "/orient-college",
+      "destination": "/college/orient-college",
+      "statusCode": 308,
+      "regex": "^(?!/_next)/orient-college(?:/)?$"
+    },
+    {
+      "source": "/national-infotech-college",
+      "destination": "/college/national-infotech-college",
+      "statusCode": 308,
+      "regex": "^(?!/_next)/national-infotech-college(?:/)?$"
+    },
+    {
+      "source": "/himalaya-college",
+      "destination": "/college/himalaya-college",
+      "statusCode": 308,
+      "regex": "^(?!/_next)/himalaya-college(?:/)?$"
+    },
+    {
+      "source": "/lumbini-engineering-college",
+      "destination": "/college/lumbini-engineering-college",
+      "statusCode": 308,
+      "regex": "^(?!/_next)/lumbini-engineering-college(?:/)?$"
+    },
+    {
+      "source": "/global-college-of-management",
+      "destination": "/college/global-college-of-management",
+      "statusCode": 308,
+      "regex": "^(?!/_next)/global-college-of-management(?:/)?$"
+    },
+    {
+      "source": "/nepal-college-of-information-technology-ncit",
+      "destination": "/college/nepal-college-of-information-technology",
+      "statusCode": 308,
+      "regex": "^(?!/_next)/nepal-college-of-information-technology-ncit(?:/)?$"
+    },
+    {
+      "source": "/college-of-applied-business-and-technology",
+      "destination": "/college/college-of-applied-business-and-technology",
+      "statusCode": 308,
+      "regex": "^(?!/_next)/college-of-applied-business-and-technology(?:/)?$"
+    },
+    {
+      "source": "/khwopa-college-of-engineering",
+      "destination": "/college/khwopa-college-of-engineering",
+      "statusCode": 308,
+      "regex": "^(?!/_next)/khwopa-college-of-engineering(?:/)?$"
+    },
+    {
+      "source": "/capital-college-and-research-center",
+      "destination": "/college/capital-college-and-research-center",
+      "statusCode": 308,
+      "regex": "^(?!/_next)/capital-college-and-research-center(?:/)?$"
+    },
+    {
+      "source": "/prasadi-academy",
+      "destination": "/college/prasadi-academy",
+      "statusCode": 308,
+      "regex": "^(?!/_next)/prasadi-academy(?:/)?$"
+    },
+    {
+      "source": "/nepal-kasthamandap-college",
+      "destination": "/college/nepal-kasthamandap-college",
+      "statusCode": 308,
+      "regex": "^(?!/_next)/nepal-kasthamandap-college(?:/)?$"
+    },
+    {
+      "source": "/omega-international-college",
+      "destination": "/college/omega-international-college",
+      "statusCode": 308,
+      "regex": "^(?!/_next)/omega-international-college(?:/)?$"
+    },
+    {
+      "source": "/arniko-international-college",
+      "destination": "/college/arniko-international-college",
+      "statusCode": 308,
+      "regex": "^(?!/_next)/arniko-international-college(?:/)?$"
+    },
+    {
+      "source": "/orchid-science-college",
+      "destination": "/college/orchid-science-college",
+      "statusCode": 308,
+      "regex": "^(?!/_next)/orchid-science-college(?:/)?$"
+    },
+    {
+      "source": "/neb-class-12-exam-routine",
+      "destination": "/information/class-12-exam-routine-neb",
+      "statusCode": 308,
+      "regex": "^(?!/_next)/neb-class-12-exam-routine(?:/)?$"
+    },
+    {
+      "source": "/ba-4th-year-exam-routine-tribhuvan-university",
+      "destination": "/information/ba-4th-year-exam-routine-tribhuvan-university",
+      "statusCode": 308,
+      "regex": "^(?!/_next)/ba-4th-year-exam-routine-tribhuvan-university(?:/)?$"
+    },
+    {
+      "source": "/bsc-4th-year-exam-routine-tribhuvan-university",
+      "destination": "/information/bsc-4th-year-exam-routine-tribhuvan-university",
+      "statusCode": 308,
+      "regex": "^(?!/_next)/bsc-4th-year-exam-routine-tribhuvan-university(?:/)?$"
+    },
+    {
+      "source": "/bed-4th-year-exam-routine-tribhuvan-university",
+      "destination": "/information/bed-4th-year-exam-routine-tribhuvan-university",
+      "statusCode": 308,
+      "regex": "^(?!/_next)/bed-4th-year-exam-routine-tribhuvan-university(?:/)?$"
+    },
+    {
+      "source": "/bbs-4th-year-exam-routine-tribhuvan-university",
+      "destination": "/information/bbs-4th-year-exam-routine-tribhuvan-university",
+      "statusCode": 308,
+      "regex": "^(?!/_next)/bbs-4th-year-exam-routine-tribhuvan-university(?:/)?$"
+    },
+    {
+      "source": "/bit-fifth-semester-exam-routine-tribhuvan-university",
+      "destination": "/information/bit-5th-semester-exam-routine-tu-iost",
+      "statusCode": 308,
+      "regex": "^(?!/_next)/bit-fifth-semester-exam-routine-tribhuvan-university(?:/)?$"
+    },
+    {
+      "source": "/bsc-csit-fifth-semester-exam-routine-tribhuvan-university",
+      "destination": "/information/bsc-csit-5th-semester-exam-routine-tu-iost",
+      "statusCode": 308,
+      "regex": "^(?!/_next)/bsc-csit-fifth-semester-exam-routine-tribhuvan-university(?:/)?$"
+    },
+    {
+      "source": "/neb-class-12-exam-center",
+      "destination": "/information/neb-class-12-exam-center",
+      "statusCode": 308,
+      "regex": "^(?!/_next)/neb-class-12-exam-center(?:/)?$"
+    },
+    {
+      "source": "/bsc-csit-1st-semester-exam-center-2081-tu-iost",
+      "destination": "/information/bsc-csit-1st-semester-exam-center-tu-iost",
+      "statusCode": 308,
+      "regex": "^(?!/_next)/bsc-csit-1st-semester-exam-center-2081-tu-iost(?:/)?$"
+    },
+    {
+      "source": "/bsc-csit-3rd-semester-exam-routine-tu-iost",
+      "destination": "/information/bsc-csit-3rd-semester-exam-routine-tu-iost",
+      "statusCode": 308,
+      "regex": "^(?!/_next)/bsc-csit-3rd-semester-exam-routine-tu-iost(?:/)?$"
+    },
+    {
+      "source": "/bed-2nd-year-exam-center-tribhuvan-university",
+      "destination": "/information/bed-2nd-year-exam-center-tribhuvan-university",
+      "statusCode": 308,
+      "regex": "^(?!/_next)/bed-2nd-year-exam-center-tribhuvan-university(?:/)?$"
+    },
+    {
+      "source": "/pokhara-university-scholarship-exam-result",
+      "destination": "/information/pokhara-university-publishes-scholarship-exam-result",
+      "statusCode": 308,
+      "regex": "^(?!/_next)/pokhara-university-scholarship-exam-result(?:/)?$"
+    },
+    {
+      "source": "/education-act-2080",
+      "destination": "/information/education-act",
+      "statusCode": 308,
+      "regex": "^(?!/_next)/education-act-2080(?:/)?$"
+    },
+    {
+      "source": "/neb-class-12-grade-increment-exam-center",
+      "destination": "/information/neb-class-12-grade-increment-exam-center",
+      "statusCode": 308,
+      "regex": "^(?!/_next)/neb-class-12-grade-increment-exam-center(?:/)?$"
+    },
+    {
+      "source": "/tu-bbs-1st-year-exam-routine",
+      "destination": "/information/bbs-1st-year-exam-routine-tribhuvan-university",
+      "statusCode": 308,
+      "regex": "^(?!/_next)/tu-bbs-1st-year-exam-routine(?:/)?$"
+    },
+    {
+      "source": "/tu-b-ed-1st-year-exam-routine",
+      "destination": "/information/bed-1st-year-exam-routine-tribhuvan-university",
+      "statusCode": 308,
+      "regex": "^(?!/_next)/tu-b-ed-1st-year-exam-routine(?:/)?$"
+    },
+    {
+      "source": "/tu-ba-1st-year-exam-routine",
+      "destination": "/information/ba-1st-year-exam-routine-tribhuvan-university",
+      "statusCode": 308,
+      "regex": "^(?!/_next)/tu-ba-1st-year-exam-routine(?:/)?$"
+    },
+    {
+      "source": "/bsc-csit-entrance-exam-center",
+      "destination": "/information/bsc-csit-entrance-exam-center-tu-iost",
+      "statusCode": 308,
+      "regex": "^(?!/_next)/bsc-csit-entrance-exam-center(?:/)?$"
+    },
+    {
+      "source": "/cmat-exam-center-tu",
+      "destination": "/information/cmat-exam-center-tu-fom",
+      "statusCode": 308,
+      "regex": "^(?!/_next)/cmat-exam-center-tu(?:/)?$"
+    },
+    {
+      "source": "/pokhara-university-be-entrance-exam-merit-list",
+      "destination": "/information/pokhara-university-be-entrance-exam-merit-list",
+      "statusCode": 308,
+      "regex": "^(?!/_next)/pokhara-university-be-entrance-exam-merit-list(?:/)?$"
+    },
+    {
+      "source": "/cmat-result-2080",
+      "destination": "/information/cmat-exam-center-tu-fom",
+      "statusCode": 308,
+      "regex": "^(?!/_next)/cmat-result-2080(?:/)?$"
+    },
+    {
+      "source": "/bit-entrance-center-tribhuvan-university",
+      "destination": "/information/bit-entrance-center-tu-iost",
+      "statusCode": 308,
+      "regex": "^(?!/_next)/bit-entrance-center-tribhuvan-university(?:/)?$"
+    },
+    {
+      "source": "/bca-entrance-exam-center-notice-by-tribhuvan-university",
+      "destination": "/information/bca-entrance-exam-center-tu-fohss",
+      "statusCode": 308,
+      "regex": "^(?!/_next)/bca-entrance-exam-center-notice-by-tribhuvan-university(?:/)?$"
+    },
+    {
+      "source": "/bsc-csit-entrance-exam-priority-list",
+      "destination": "/information/bsc-csit-priority-list-tu-iost",
+      "statusCode": 308,
+      "regex": "^(?!/_next)/bsc-csit-entrance-exam-priority-list(?:/)?$"
+    },
+    {
+      "source": "/bca-entrance-exam-result-tribhuvan-university",
+      "destination": "/information/bca-entrance-exam-result-tu-fohss",
+      "statusCode": 308,
+      "regex": "^(?!/_next)/bca-entrance-exam-result-tribhuvan-university(?:/)?$"
+    },
+    {
+      "source": "/bsc-csit-second-semester-exam-routine-tribhuvan-university",
+      "destination": "/information/bsc-csit-second-semester-exam-routine-tu-iost",
+      "statusCode": 308,
+      "regex": "^(?!/_next)/bsc-csit-second-semester-exam-routine-tribhuvan-university(?:/)?$"
+    },
+    {
+      "source": "/ioe-entrance-exam-center",
+      "destination": "/information/ioe-entrance-exam-center",
+      "statusCode": 308,
+      "regex": "^(?!/_next)/ioe-entrance-exam-center(?:/)?$"
+    },
+    {
+      "source": "/msc-fourth-semester-routine-by-tribhuvan-university",
+      "destination": "/information/msc-4th-semester-exam-routine-tu-iost",
+      "statusCode": 308,
+      "regex": "^(?!/_next)/msc-fourth-semester-routine-by-tribhuvan-university(?:/)?$"
+    },
+    {
+      "source": "/bit-second-semester-exam-routine-by-tribhuvan-university",
+      "destination": "/information/bit-2nd-semester-exam-routine-tu-iost",
+      "statusCode": 308,
+      "regex": "^(?!/_next)/bit-second-semester-exam-routine-by-tribhuvan-university(?:/)?$"
+    },
+    {
+      "source": "/bsc-first-year-exam-routine-by-tribhuvan-university",
+      "destination": "/information/bsc-1st-year-exam-routine-tribhuvan-university",
+      "statusCode": 308,
+      "regex": "^(?!/_next)/bsc-first-year-exam-routine-by-tribhuvan-university(?:/)?$"
+    },
+    {
+      "source": "/bsc-csit-second-semester-exam-center-tribhuvan-university",
+      "destination": "/information/bsc-csit-2nd-semester-exam-center-tu-iost",
+      "statusCode": 308,
+      "regex": "^(?!/_next)/bsc-csit-second-semester-exam-center-tribhuvan-university(?:/)?$"
+    },
+    {
+      "source": "/mbs-and-mpa-entrance-exam-2080-notice-tribhuvan-university",
+      "destination": "/information/mbs-and-mpa-entrance-exam-notice-tu-fom",
+      "statusCode": 308,
+      "regex": "^(?!/_next)/mbs-and-mpa-entrance-exam-2080-notice-tribhuvan-university(?:/)?$"
+    },
+    {
+      "source": "/bsc-entrance-2080-exam-center-tribhuvan-university",
+      "destination": "/information/bsc-entrance-exam-center-tu-iost",
+      "statusCode": 308,
+      "regex": "^(?!/_next)/bsc-entrance-2080-exam-center-tribhuvan-university(?:/)?$"
+    },
+    {
+      "source": "/re-cmat-2023-exam-center-tribhuvan-university",
+      "destination": "/information/re-cmat-exam-center-tu-fom",
+      "statusCode": 308,
+      "regex": "^(?!/_next)/re-cmat-2023-exam-center-tribhuvan-university(?:/)?$"
+    },
+    {
+      "source": "/bit-second-semester-exam-center-tribhuvan-university",
+      "destination": "/information/bit-2nd-semester-exam-center-tu-iost",
+      "statusCode": 308,
+      "regex": "^(?!/_next)/bit-second-semester-exam-center-tribhuvan-university(?:/)?$"
+    },
+    {
+      "source": "/neb-opens-class-11-registration-for-academic-year-2080-81",
+      "destination": "/information/neb-opens-class-11-registration",
+      "statusCode": 308,
+      "regex": "^(?!/_next)/neb-opens-class-11-registration-for-academic-year-2080-81(?:/)?$"
+    },
+    {
+      "source": "/btech-food-entrance-result-2080-tu",
+      "destination": "/information/btech-food-entrance-result-tu-iost",
+      "statusCode": 308,
+      "regex": "^(?!/_next)/btech-food-entrance-result-2080-tu(?:/)?$"
+    },
+    {
+      "source": "/msc-4th-semester-exam-center-notice-tu",
+      "destination": "/information/msc-4th-semester-exam-center-tu-iost",
+      "statusCode": 308,
+      "regex": "^(?!/_next)/msc-4th-semester-exam-center-notice-tu(?:/)?$"
+    },
+    {
+      "source": "/bsc-1st-year-exam-center-tu",
+      "destination": "/information/bsc-1st-year-exam-center-tribhuvan-university",
+      "statusCode": 308,
+      "regex": "^(?!/_next)/bsc-1st-year-exam-center-tu(?:/)?$"
+    },
+    {
+      "source": "/bsc-entrance-exam-result-2080-tu",
+      "destination": "/information/bsc-entrance-exam-result-tu-iost",
+      "statusCode": 308,
+      "regex": "^(?!/_next)/bsc-entrance-exam-result-2080-tu(?:/)?$"
+    },
+    {
+      "source": "/bca-re-entrance-exam-center-2080-tu",
+      "destination": "/information/bca-re-entrance-exam-center-tu-fohss",
+      "statusCode": 308,
+      "regex": "^(?!/_next)/bca-re-entrance-exam-center-2080-tu(?:/)?$"
+    },
+    {
+      "source": "/bsc-csit-5th-semester-exam-center-tribhuvan-university",
+      "destination": "/information/bsc-csit-5th-semester-exam-center-tu-iost",
+      "statusCode": 308,
+      "regex": "^(?!/_next)/bsc-csit-5th-semester-exam-center-tribhuvan-university(?:/)?$"
+    },
+    {
+      "source": "/re-cmat-result-2080-tribhuvan-university",
+      "destination": "/information/re-cmat-result-tu-fom",
+      "statusCode": 308,
+      "regex": "^(?!/_next)/re-cmat-result-2080-tribhuvan-university(?:/)?$"
+    },
+    {
+      "source": "/bca-re-entrance-2080-result-published-tribhuvan-university",
+      "destination": "/information/bca-re-entrance-result-tu-fohss",
+      "statusCode": 308,
+      "regex": "^(?!/_next)/bca-re-entrance-2080-result-published-tribhuvan-university(?:/)?$"
+    },
+    {
+      "source": "/mbs-mpa-4th-semester-exam-form-notice-tribhuvan-university",
+      "destination": "/information/mbs-and-mpa-4th-semester-exam-form-notice-tu-fom",
+      "statusCode": 308,
+      "regex": "^(?!/_next)/mbs-mpa-4th-semester-exam-form-notice-tribhuvan-university(?:/)?$"
+    },
+    {
+      "source": "/bachelor-of-mathematical-science-sixth-semester-exam-form-fill-up-notice-tu",
+      "destination": "/information/bachelor-of-mathematical-science-6th-semester-exam-form-fill-up-notice-tu-iost",
+      "statusCode": 308,
+      "regex": "^(?!/_next)/bachelor-of-mathematical-science-sixth-semester-exam-form-fill-up-notice-tu(?:/)?$"
+    },
+    {
+      "source": "/master-in-data-science-2nd-semester-form-fill-up-notice-tu",
+      "destination": "/information/master-in-data-science-2nd-semester-form-fill-up-notice-tu-iost",
+      "statusCode": 308,
+      "regex": "^(?!/_next)/master-in-data-science-2nd-semester-form-fill-up-notice-tu(?:/)?$"
+    },
+    {
+      "source": "/master-cmat-2024-2080-exam-center-tu",
+      "destination": "/information/master-cmat-exam-center-tu-fom",
+      "statusCode": 308,
+      "regex": "^(?!/_next)/master-cmat-2024-2080-exam-center-tu(?:/)?$"
+    },
+    {
+      "source": "/master-in-data-science-2nd-semester-exam-routine-tu",
+      "destination": "/information/master-in-data-science-2nd-semester-exam-routine-tu-iost",
+      "statusCode": 308,
+      "regex": "^(?!/_next)/master-in-data-science-2nd-semester-exam-routine-tu(?:/)?$"
+    },
+    {
+      "source": "/bachelor-in-mathematical-science-6th-semester-exam-routine-tu",
+      "destination": "/information/bachelor-in-mathematical-science-6th-semester-exam-routine-tu-iost",
+      "statusCode": 308,
+      "regex": "^(?!/_next)/bachelor-in-mathematical-science-6th-semester-exam-routine-tu(?:/)?$"
+    },
+    {
+      "source": "/mbs-and-mpa-entrance-exam-center-2080-published-tu",
+      "destination": "/information/mbs-and-mpa-entrance-exam-center-tu-fom",
+      "statusCode": 308,
+      "regex": "^(?!/_next)/mbs-and-mpa-entrance-exam-center-2080-published-tu(?:/)?$"
+    },
+    {
+      "source": "/msc-entrance-2080-exam-schedule-exam-center-exam-time-notice-tu",
+      "destination": "/information/msc-entrance-exam-notice-tu-iost",
+      "statusCode": 308,
+      "regex": "^(?!/_next)/msc-entrance-2080-exam-schedule-exam-center-exam-time-notice-tu(?:/)?$"
+    },
+    {
+      "source": "/bit-7th-semester-form-fill-up-notice-tribhuvan-university",
+      "destination": "/information/bit-7th-semester-form-fill-up-notice-tu-iost",
+      "statusCode": 308,
+      "regex": "^(?!/_next)/bit-7th-semester-form-fill-up-notice-tribhuvan-university(?:/)?$"
+    },
+    {
+      "source": "/bit-5th-semester-exam-center-notice-tribhuvan-university",
+      "destination": "/information/bit-5th-semester-exam-center-notice-tu-iost",
+      "statusCode": 308,
+      "regex": "^(?!/_next)/bit-5th-semester-exam-center-notice-tribhuvan-university(?:/)?$"
+    },
+    {
+      "source": "/bsc-1st-year-exam-2080-result-published-tribhuvan-university",
+      "destination": "/information/bsc-1st-year-exam-result-published-tribhuvan-university",
+      "statusCode": 308,
+      "regex": "^(?!/_next)/bsc-1st-year-exam-2080-result-published-tribhuvan-university(?:/)?$"
+    },
+    {
+      "source": "/msc-2nd-semester-exam-routine-tribhuvan-university",
+      "destination": "/information/msc-2nd-semester-exam-routine-tu-iost",
+      "statusCode": 308,
+      "regex": "^(?!/_next)/msc-2nd-semester-exam-routine-tribhuvan-university(?:/)?$"
+    },
+    {
+      "source": "/mbs-and-mpa-4th-semester-exam-center-tu",
+      "destination": "/information/mbs-and-mpa-4th-semester-exam-center-tu-fom",
+      "statusCode": 308,
+      "regex": "^(?!/_next)/mbs-and-mpa-4th-semester-exam-center-tu(?:/)?$"
+    },
+    {
+      "source": "/b-tech-1st-year-exam-routine-tribhuvan-university",
+      "destination": "/information/btech-1st-year-exam-routine-tribhuvan-university",
+      "statusCode": 308,
+      "regex": "^(?!/_next)/b-tech-1st-year-exam-routine-tribhuvan-university(?:/)?$"
+    },
+    {
+      "source": "/mbs-and-mpa-4th-semester-exam-routine-tribhuvan-university",
+      "destination": "/information/mbs-and-mpa-4th-semester-exam-routine-tu-fom",
+      "statusCode": 308,
+      "regex": "^(?!/_next)/mbs-and-mpa-4th-semester-exam-routine-tribhuvan-university(?:/)?$"
+    },
+    {
+      "source": "/bsc-re-entrance-2080-result-tribhuvan-university",
+      "destination": "/information/bsc-re-entrance-result-tu-iost",
+      "statusCode": 308,
+      "regex": "^(?!/_next)/bsc-re-entrance-2080-result-tribhuvan-university(?:/)?$"
+    },
+    {
+      "source": "/bit-4th-semester-exam-routine-tu-iost",
+      "destination": "/information/bit-4th-semester-exam-routine-tu-iost",
+      "statusCode": 308,
+      "regex": "^(?!/_next)/bit-4th-semester-exam-routine-tu-iost(?:/)?$"
+    },
+    {
+      "source": "/bsc-csit-4th-semester-exam-routine-tribhuvan-university",
+      "destination": "/information/bsc-csit-4th-semester-exam-routine-tu-iost",
+      "statusCode": 308,
+      "regex": "^(?!/_next)/bsc-csit-4th-semester-exam-routine-tribhuvan-university(?:/)?$"
+    },
+    {
+      "source": "/ioe-msc-entrance-exam-notice",
+      "destination": "/information/ioe-msc-entrance-exam-notice",
+      "statusCode": 308,
+      "regex": "^(?!/_next)/ioe-msc-entrance-exam-notice(?:/)?$"
+    },
+    {
+      "source": "/msc-2nd-semester-exam-center-tu-iost",
+      "destination": "/information/msc-2nd-semester-exam-center-tu-iost",
+      "statusCode": 308,
+      "regex": "^(?!/_next)/msc-2nd-semester-exam-center-tu-iost(?:/)?$"
+    },
+    {
+      "source": "/bbs-ba-b-ed-bsc-4th-year-exam-form-fill-up-notice-tu",
+      "destination": "/information/bbs-ba-bed-bsc-4th-year-exam-form-fill-up-notice-tu",
+      "statusCode": 308,
+      "regex": "^(?!/_next)/bbs-ba-b-ed-bsc-4th-year-exam-form-fill-up-notice-tu(?:/)?$"
+    },
+    {
+      "source": "/bit-4th-semester-exam-center-tu-iost",
+      "destination": "/information/bit-4th-semester-exam-center-tu-iost",
+      "statusCode": 308,
+      "regex": "^(?!/_next)/bit-4th-semester-exam-center-tu-iost(?:/)?$"
+    },
+    {
+      "source": "/mbs-and-mpa-2nd-semester-exam-center-2024-tu-fom",
+      "destination": "/information/mbs-and-mpa-2nd-semester-exam-center-tu-fom",
+      "statusCode": 308,
+      "regex": "^(?!/_next)/mbs-and-mpa-2nd-semester-exam-center-2024-tu-fom(?:/)?$"
+    },
+    {
+      "source": "/ma-4th-semester-exam-routine-tu-fohss",
+      "destination": "/information/ma-4th-semester-exam-routine-tu-fohss",
+      "statusCode": 308,
+      "regex": "^(?!/_next)/ma-4th-semester-exam-routine-tu-fohss(?:/)?$"
+    },
+    {
+      "source": "/bsc-csit-4th-semester-exam-center-tu-iost",
+      "destination": "/information/bsc-csit-4th-semester-exam-center-tu-iost",
+      "statusCode": 308,
+      "regex": "^(?!/_next)/bsc-csit-4th-semester-exam-center-tu-iost(?:/)?$"
+    },
+    {
+      "source": "/bachelor-in-mathematical-science-5th-semester-form-fill-up-notice-tu-iost",
+      "destination": "/information/bachelor-in-mathematical-science-5th-semester-form-fill-up-notice-tu-iost",
+      "statusCode": 308,
+      "regex": "^(?!/_next)/bachelor-in-mathematical-science-5th-semester-form-fill-up-notice-tu-iost(?:/)?$"
+    },
+    {
+      "source": "/bsc-csit-3rd-semester-form-fill-up-notice-tu-iost",
+      "destination": "/information/bsc-csit-3rd-semester-form-fill-up-notice-tu-iost",
+      "statusCode": 308,
+      "regex": "^(?!/_next)/bsc-csit-3rd-semester-form-fill-up-notice-tu-iost(?:/)?$"
+    },
+    {
+      "source": "/msc-1st-semester-form-fill-up-notice-tu-iost",
+      "destination": "/information/msc-1st-semester-form-fill-up-notice-tu-iost",
+      "statusCode": 308,
+      "regex": "^(?!/_next)/msc-1st-semester-form-fill-up-notice-tu-iost(?:/)?$"
+    },
+    {
+      "source": "/ma-4th-semester-exam-center-tu-fohss",
+      "destination": "/information/ma-4th-semester-exam-center-tu-fohss",
+      "statusCode": 308,
+      "regex": "^(?!/_next)/ma-4th-semester-exam-center-tu-fohss(?:/)?$"
+    },
+    {
+      "source": "/bsc-csit-1st-semester-exam-routine-tu-iost",
+      "destination": "/information/bsc-csit-1st-semester-exam-routine-tu-iost",
+      "statusCode": 308,
+      "regex": "^(?!/_next)/bsc-csit-1st-semester-exam-routine-tu-iost(?:/)?$"
+    },
+    {
+      "source": "/med-2nd-semester-exam-routine-tribhuvan-university",
+      "destination": "/information/med-2nd-semester-exam-routine-tu-foe",
+      "statusCode": 308,
+      "regex": "^(?!/_next)/med-2nd-semester-exam-routine-tribhuvan-university(?:/)?$"
+    },
+    {
+      "source": "/bit-1st-semester-exam-center-tu-iost",
+      "destination": "/information/bit-1st-semester-exam-center-tu-iost",
+      "statusCode": 308,
+      "regex": "^(?!/_next)/bit-1st-semester-exam-center-tu-iost(?:/)?$"
+    },
+    {
+      "source": "/bsc-csit-8th-semester-form-fill-up-notice-tu-iost",
+      "destination": "/information/bsc-csit-8th-semester-form-fill-up-notice-tu-iost",
+      "statusCode": 308,
+      "regex": "^(?!/_next)/bsc-csit-8th-semester-form-fill-up-notice-tu-iost(?:/)?$"
+    },
+    {
+      "source": "/ma-2nd-semester-exam-center-tu-fohss",
+      "destination": "/information/ma-2nd-semester-exam-center-tu-fohss",
+      "statusCode": 308,
+      "regex": "^(?!/_next)/ma-2nd-semester-exam-center-tu-fohss(?:/)?$"
+    },
+    {
+      "source": "/bca-7th-semester-exam-routine-tu-fohss",
+      "destination": "/information/bca-7th-semester-exam-routine-tu-fohss",
+      "statusCode": 308,
+      "regex": "^(?!/_next)/bca-7th-semester-exam-routine-tu-fohss(?:/)?$"
+    },
+    {
+      "source": "/bit-1st-semester-exam-routine-tu-iost",
+      "destination": "/information/bit-1st-semester-exam-routine-tu-iost",
+      "statusCode": 308,
+      "regex": "^(?!/_next)/bit-1st-semester-exam-routine-tu-iost(?:/)?$"
+    },
+    {
+      "source": "/bsc-csit-3rd-semester-exam-center-tu-iost",
+      "destination": "/information/bsc-csit-3rd-semester-exam-center-tu-iost",
+      "statusCode": 308,
+      "regex": "^(?!/_next)/bsc-csit-3rd-semester-exam-center-tu-iost(?:/)?$"
+    },
+    {
+      "source": "/bachelor-in-mathematical-science-7th-semester-form-fill-up-notice-tu-iost",
+      "destination": "/information/bachelor-in-mathematical-science-5th-semester-form-fill-up-notice-tu-iost",
+      "statusCode": 308,
+      "regex": "^(?!/_next)/bachelor-in-mathematical-science-7th-semester-form-fill-up-notice-tu-iost(?:/)?$"
+    },
+    {
+      "source": "/m-ed-and-mssed-1st-semester-exam-form-fill-up-notice-tu-foe",
+      "destination": "/information/med-and-mssed-1st-semester-exam-form-fill-up-notice-tu-foe",
+      "statusCode": 308,
+      "regex": "^(?!/_next)/m-ed-and-mssed-1st-semester-exam-form-fill-up-notice-tu-foe(?:/)?$"
+    },
+    {
+      "source": "/mca-entrance-notice-tu-fohss",
+      "destination": "/information/mca-entrance-notice-tu-fohss",
+      "statusCode": 308,
+      "regex": "^(?!/_next)/mca-entrance-notice-tu-fohss(?:/)?$"
+    },
+    {
+      "source": "/bsc-2nd-year-exam-result-tribhuvan-university",
+      "destination": "/information/bsc-2nd-year-exam-result-tribhuvan-university",
+      "statusCode": 308,
+      "regex": "^(?!/_next)/bsc-2nd-year-exam-result-tribhuvan-university(?:/)?$"
+    },
+    {
+      "source": "/bca-3rd-semester-form-fill-up-notice-tu-fohss",
+      "destination": "/information/bca-3rd-semester-form-fill-up-notice-tu-fohss",
+      "statusCode": 308,
+      "regex": "^(?!/_next)/bca-3rd-semester-form-fill-up-notice-tu-fohss(?:/)?$"
+    },
+    {
+      "source": "/msc-1st-semester-exam-routine-tu-iost",
+      "destination": "/information/msc-1st-semester-exam-routine-tu-iost",
+      "statusCode": 308,
+      "regex": "^(?!/_next)/msc-1st-semester-exam-routine-tu-iost(?:/)?$"
+    },
+    {
+      "source": "/bit-8th-semester-exam-routine-tu-iost",
+      "destination": "/information/bit-8th-semester-exam-routine-tu-iost",
+      "statusCode": 308,
+      "regex": "^(?!/_next)/bit-8th-semester-exam-routine-tu-iost(?:/)?$"
+    },
+    {
+      "source": "/bsc-4th-year-exam-center-tribhuvan-university",
+      "destination": "/information/bsc-4th-year-exam-center-tribhuvan-university",
+      "statusCode": 308,
+      "regex": "^(?!/_next)/bsc-4th-year-exam-center-tribhuvan-university(?:/)?$"
+    },
+    {
+      "source": "/bed-4th-year-exam-center-tribhuvan-university",
+      "destination": "/information/bed-4th-year-exam-center-tribhuvan-university",
+      "statusCode": 308,
+      "regex": "^(?!/_next)/bed-4th-year-exam-center-tribhuvan-university(?:/)?$"
+    },
+    {
+      "source": "/ba-4th-year-exam-center-tribhuvan-university",
+      "destination": "/information/ba-4th-year-exam-center-tribhuvan-university",
+      "statusCode": 308,
+      "regex": "^(?!/_next)/ba-4th-year-exam-center-tribhuvan-university(?:/)?$"
+    },
+    {
+      "source": "/bbs-4th-year-exam-center-tribhuvan-university",
+      "destination": "/information/bbs-4th-year-exam-center-tribhuvan-university",
+      "statusCode": 308,
+      "regex": "^(?!/_next)/bbs-4th-year-exam-center-tribhuvan-university(?:/)?$"
+    },
+    {
+      "source": "/4-year-bed-3rd-year-exam-result-tribhuvan-university",
+      "destination": "/information/bed-3rd-year-exam-result-tribhuvan-university",
+      "statusCode": 308,
+      "regex": "^(?!/_next)/4-year-bed-3rd-year-exam-result-tribhuvan-university(?:/)?$"
+    },
+    {
+      "source": "/bbs-4th-year-model-question-tu-fom",
+      "destination": "/information/bbs-4th-year-model-question-tu-fom",
+      "statusCode": 308,
+      "regex": "^(?!/_next)/bbs-4th-year-model-question-tu-fom(?:/)?$"
+    },
+    {
+      "source": "/bachelor-of-mathematical-science-7th-semester-exam-routine-tu-iost",
+      "destination": "/information/bachelor-of-mathematical-science-7th-semester-exam-routine-tu-iost",
+      "statusCode": 308,
+      "regex": "^(?!/_next)/bachelor-of-mathematical-science-7th-semester-exam-routine-tu-iost(?:/)?$"
+    },
+    {
+      "source": "/bit-3rd-semester-exam-center-tu-iost",
+      "destination": "/information/bit-3rd-semester-exam-center-tu-iost",
+      "statusCode": 308,
+      "regex": "^(?!/_next)/bit-3rd-semester-exam-center-tu-iost(?:/)?$"
+    },
+    {
+      "source": "/mca-entrance-exam-center-tu-fohss",
+      "destination": "/information/mca-entrance-exam-center-tu-fohss",
+      "statusCode": 308,
+      "regex": "^(?!/_next)/mca-entrance-exam-center-tu-fohss(?:/)?$"
+    },
+    {
+      "source": "/bit-8th-semester-exam-form-fill-up-notice-tu-iost",
+      "destination": "/information/bit-8th-semester-exam-form-fill-up-notice-tu-iost",
+      "statusCode": 308,
+      "regex": "^(?!/_next)/bit-8th-semester-exam-form-fill-up-notice-tu-iost(?:/)?$"
+    },
+    {
+      "source": "/bca-entrance-exam-notice-tu",
+      "destination": "/information/bca-entrance-exam-notice-tu-fohss",
+      "statusCode": 308,
+      "regex": "^(?!/_next)/bca-entrance-exam-notice-tu(?:/)?$"
+    },
+    {
+      "source": "/bsc-csit-fifth-semester-form-fill-up-notice-by-tribhuvan-university",
+      "destination": "/information/bsc-csit-5th-semester-form-fill-up-notice-tu-iost",
+      "statusCode": 308,
+      "regex": "^(?!/_next)/bsc-csit-fifth-semester-form-fill-up-notice-by-tribhuvan-university(?:/)?$"
+    },
+    {
+      "source": "/bit-5th-semester-form-fill-up-notice-tu-iost",
+      "destination": "/information/bit-5th-semester-form-fill-up-notice-tu-iost",
+      "statusCode": 308,
+      "regex": "^(?!/_next)/bit-5th-semester-form-fill-up-notice-tu-iost(?:/)?$"
+    },
+    {
+      "source": "/bit-entrance-exam-tu",
+      "destination": "/information/bit-entrance-exam-notice-tu-iost",
+      "statusCode": 308,
+      "regex": "^(?!/_next)/bit-entrance-exam-tu(?:/)?$"
+    },
+    {
+      "source": "/bsc-entrance-exam-notice-tu-iost",
+      "destination": "/information/bsc-entrance-exam-notice-tu-iost",
+      "statusCode": 308,
+      "regex": "^(?!/_next)/bsc-entrance-exam-notice-tu-iost(?:/)?$"
+    },
+    {
+      "source": "/bsc-csit-8th-semester-exam-routine-tu-iost",
+      "destination": "/information/bsc-csit-8th-semester-exam-routine-tu-iost",
+      "statusCode": 308,
+      "regex": "^(?!/_next)/bsc-csit-8th-semester-exam-routine-tu-iost(?:/)?$"
+    },
+    {
+      "source": "/bsw-3rd-semester-exam-routine-tu-fohss",
+      "destination": "/information/bsw-3rd-semester-exam-routine-tu-fohss",
+      "statusCode": 308,
+      "regex": "^(?!/_next)/bsw-3rd-semester-exam-routine-tu-fohss(?:/)?$"
+    },
+    {
+      "source": "/bsw-3rd-semester-form-fill-up-notice-tu-fohss",
+      "destination": "/information/bsw-3rd-semester-form-fill-up-notice-tu-fohss",
+      "statusCode": 308,
+      "regex": "^(?!/_next)/bsw-3rd-semester-form-fill-up-notice-tu-fohss(?:/)?$"
+    },
+    {
+      "source": "/bca-3rd-semester-exam-routine-tu-fohss",
+      "destination": "/information/bca-3rd-semester-exam-routine-tu-fohss",
+      "statusCode": 308,
+      "regex": "^(?!/_next)/bca-3rd-semester-exam-routine-tu-fohss(?:/)?$"
+    },
+    {
+      "source": "/4-year-ba-3rd-year-exam-result-tribhuvan-university",
+      "destination": "/information/bed-3rd-year-exam-result-tribhuvan-university",
+      "statusCode": 308,
+      "regex": "^(?!/_next)/4-year-ba-3rd-year-exam-result-tribhuvan-university(?:/)?$"
+    },
+    {
+      "source": "/csit-entrance-exam-tu",
+      "destination": "/information/bsc-csit-entrance-exam-notice-tu-iost",
+      "statusCode": 308,
+      "regex": "^(?!/_next)/csit-entrance-exam-tu(?:/)?$"
+    },
+    {
+      "source": "/4-years-ba-1st-year-result-published-tu",
+      "destination": "/information/ba-1st-year-result-tribhuvan-university",
+      "statusCode": 308,
+      "regex": "^(?!/_next)/4-years-ba-1st-year-result-published-tu(?:/)?$"
+    },
+    {
+      "source": "/4-year-ba-2nd-year-exam-result-published-tribhuvan-university",
+      "destination": "/information/ba-2nd-year-exam-result-tribhuvan-university",
+      "statusCode": 308,
+      "regex": "^(?!/_next)/4-year-ba-2nd-year-exam-result-published-tribhuvan-university(?:/)?$"
+    },
+    {
+      "source": "/bca-3rd-semester-exam-center-notice-tu-fohss",
+      "destination": "/information/bca-3rd-semester-exam-center-tu-fohss",
+      "statusCode": 308,
+      "regex": "^(?!/_next)/bca-3rd-semester-exam-center-notice-tu-fohss(?:/)?$"
+    },
+    {
+      "source": "/bit-8th-semester-exam-center-notice-tu-iost",
+      "destination": "/information/bit-8th-semester-exam-center-notice-tu-iost",
+      "statusCode": 308,
+      "regex": "^(?!/_next)/bit-8th-semester-exam-center-notice-tu-iost(?:/)?$"
+    },
+    {
+      "source": "/ioe-entrance-exam-notice",
+      "destination": "/information/ioe-entrance-exam-notice-tu-ioe",
+      "statusCode": 308,
+      "regex": "^(?!/_next)/ioe-entrance-exam-notice(?:/)?$"
+    },
+    {
+      "source": "/4-year-bed-2nd-year-exam-result-published-tribhuvan-university",
+      "destination": "/information/bed-2nd-year-exam-result-tribhuvan-university",
+      "statusCode": 308,
+      "regex": "^(?!/_next)/4-year-bed-2nd-year-exam-result-published-tribhuvan-university(?:/)?$"
+    },
+    {
+      "source": "/4-year-bbs-3rd-year-exam-result-published-tribhuvan-university",
+      "destination": "/information/bbs-3rd-year-exam-result-tribhuvan-university",
+      "statusCode": 308,
+      "regex": "^(?!/_next)/4-year-bbs-3rd-year-exam-result-published-tribhuvan-university(?:/)?$"
+    },
+    {
+      "source": "/bsc-1st-year-exam-center-tribhuvan-university",
+      "destination": "/information/bsc-1st-year-exam-center-tribhuvan-university",
+      "statusCode": 308,
+      "regex": "^(?!/_next)/bsc-1st-year-exam-center-tribhuvan-university(?:/)?$"
+    },
+    {
+      "source": "/bed-1st-year-exam-center-tribhuvan-university",
+      "destination": "/information/bed-1st-year-exam-center-tribhuvan-university",
+      "statusCode": 308,
+      "regex": "^(?!/_next)/bed-1st-year-exam-center-tribhuvan-university(?:/)?$"
+    },
+    {
+      "source": "/bbs-1st-year-exam-center-tribhuvan-university",
+      "destination": "/information/bbs-1st-year-exam-center-2081-tribhuvan-university",
+      "statusCode": 308,
+      "regex": "^(?!/_next)/bbs-1st-year-exam-center-tribhuvan-university(?:/)?$"
+    },
+    {
+      "source": "/bca-5th-semester-exam-routine-tu-fohss",
+      "destination": "/information/bca-5th-semester-exam-routine-tu-fohss",
+      "statusCode": 308,
+      "regex": "^(?!/_next)/bca-5th-semester-exam-routine-tu-fohss(?:/)?$"
+    },
+    {
+      "source": "/bca-second-semester-exam-routine-tribhuvan-university",
+      "destination": "/information/bca-2nd-semester-exam-routine-tu-fohss",
+      "statusCode": 308,
+      "regex": "^(?!/_next)/bca-second-semester-exam-routine-tribhuvan-university(?:/)?$"
+    },
+    {
+      "source": "/bit-7th-semester-exam-center-tribhuvan-university",
+      "destination": "/information/bit-7th-semester-exam-center-tribhuvan-university",
+      "statusCode": 308,
+      "regex": "^(?!/_next)/bit-7th-semester-exam-center-tribhuvan-university(?:/)?$"
+    },
+    {
+      "source": "/bsc-csit-7th-semester-exam-center-tu",
+      "destination": "/information/bsc-csit-7th-semester-exam-center-tu-iost",
+      "statusCode": 308,
+      "regex": "^(?!/_next)/bsc-csit-7th-semester-exam-center-tu(?:/)?$"
+    },
+    {
+      "source": "/bit-7th-semester-exam-routine-tribhuvan-university",
+      "destination": "/information/bit-7th-semester-exam-routine-tribhuvan-university",
+      "statusCode": 308,
+      "regex": "^(?!/_next)/bit-7th-semester-exam-routine-tribhuvan-university(?:/)?$"
+    },
+    {
+      "source": "/bsc-csit-7th-semester-exam-routine-tribhuvan-university",
+      "destination": "/information/bsc-csit-7th-semester-exam-routine-tu-iost",
+      "statusCode": 308,
+      "regex": "^(?!/_next)/bsc-csit-7th-semester-exam-routine-tribhuvan-university(?:/)?$"
+    },
+    {
+      "source": "/bit-entrance-result-tribhuvan-university",
+      "destination": "/information/bit-entrance-result-tu-iost",
+      "statusCode": 308,
+      "regex": "^(?!/_next)/bit-entrance-result-tribhuvan-university(?:/)?$"
+    },
+    {
+      "source": "/ioe-entrance-result",
+      "destination": "/information/ioe-entrance-result-tu-ioe",
+      "statusCode": 308,
+      "regex": "^(?!/_next)/ioe-entrance-result(?:/)?$"
+    },
+    {
+      "source": "/bsc-csit-entrance-result-2080",
+      "destination": "/information/bsc-csit-entrance-result-tu-iost",
+      "statusCode": 308,
+      "regex": "^(?!/_next)/bsc-csit-entrance-result-2080(?:/)?$"
+    },
+    {
+      "source": "/cee-mec-mbbs-bds-result-2080-published",
+      "destination": "/information/cee-result-mec",
+      "statusCode": 308,
+      "regex": "^(?!/_next)/cee-mec-mbbs-bds-result-2080-published(?:/)?$"
+    },
+    {
+      "source": "/bit-4th-semester-form-fill-up-notice-tribhuvan-university",
+      "destination": "/information/bit-4th-semester-form-fill-up-notice-tu-iost",
+      "statusCode": 308,
+      "regex": "^(?!/_next)/bit-4th-semester-form-fill-up-notice-tribhuvan-university(?:/)?$"
+    },
+    {
+      "source": "/bsc-csit-4th-semester-form-fill-up-notice-tribhuvan-university",
+      "destination": "/information/bsc-csit-4th-semester-form-fill-up-notice-tu-iost",
+      "statusCode": 308,
+      "regex": "^(?!/_next)/bsc-csit-4th-semester-form-fill-up-notice-tribhuvan-university(?:/)?$"
+    },
+    {
+      "source": "/neb-class-12-grade-increment-exam-routine",
+      "destination": "/information/class-12-grade-increment-exam-routine-neb",
+      "statusCode": 308,
+      "regex": "^(?!/_next)/neb-class-12-grade-increment-exam-routine(?:/)?$"
+    },
+    {
+      "source": "/bsc-2nd-year-exam-center-tribhuvan-university",
+      "destination": "/information/bsc-2nd-year-exam-center-tribhuvan-university",
+      "statusCode": 308,
+      "regex": "^(?!/_next)/bsc-2nd-year-exam-center-tribhuvan-university(?:/)?$"
+    },
+    {
+      "source": "/bbs-2nd-year-exam-center-tribhuvan-university",
+      "destination": "/information/bbs-2nd-year-exam-center-tribhuvan-university",
+      "statusCode": 308,
+      "regex": "^(?!/_next)/bbs-2nd-year-exam-center-tribhuvan-university(?:/)?$"
+    },
+    {
+      "source": "/bca-4th-semester-exam-center-tu-fohss",
+      "destination": "/information/bca-4th-semester-exam-center-tu-fohss",
+      "statusCode": 308,
+      "regex": "^(?!/_next)/bca-4th-semester-exam-center-tu-fohss(?:/)?$"
+    },
+    {
+      "source": "/see-routine",
+      "destination": "/information/see-routine-neb",
+      "statusCode": 308,
+      "regex": "^(?!/_next)/see-routine(?:/)?$"
+    },
+    {
+      "source": "/see-exam-center-neb",
+      "destination": "/information/see-exam-center-neb",
+      "statusCode": 308,
+      "regex": "^(?!/_next)/see-exam-center-neb(?:/)?$"
+    },
+    {
+      "source": "/bca-4th-semester-exam-routine-tu-fohss",
+      "destination": "/information/bca-4th-semester-exam-routine-tu-fohss",
+      "statusCode": 308,
+      "regex": "^(?!/_next)/bca-4th-semester-exam-routine-tu-fohss(?:/)?$"
+    },
+    {
+      "source": "/mbs-and-mpa-entrance-result-published-tu",
+      "destination": "/information/mbs-and-mpa-entrance-result-tu-fom",
+      "statusCode": 308,
+      "regex": "^(?!/_next)/mbs-and-mpa-entrance-result-published-tu(?:/)?$"
+    },
+    {
+      "source": "/bsc-csit-6th-semester-exam-form-fill-up-notice-tu-iost",
+      "destination": "/information/bsc-csit-6th-semester-exam-form-fill-up-notice-tu-iost",
+      "statusCode": 308,
+      "regex": "^(?!/_next)/bsc-csit-6th-semester-exam-form-fill-up-notice-tu-iost(?:/)?$"
+    },
+    {
+      "source": "/bed-2nd-year-exam-routine-tribhuvan-university",
+      "destination": "/information/bed-2nd-year-exam-routine-tribhuvan-university",
+      "statusCode": 308,
+      "regex": "^(?!/_next)/bed-2nd-year-exam-routine-tribhuvan-university(?:/)?$"
+    },
+    {
+      "source": "/ba-2nd-year-exam-routine-tribhuvan-university",
+      "destination": "/information/ba-2nd-year-exam-routine-tribhuvan-university",
+      "statusCode": 308,
+      "regex": "^(?!/_next)/ba-2nd-year-exam-routine-tribhuvan-university(?:/)?$"
+    },
+    {
+      "source": "/bsc-2nd-year-exam-routine-tribhuvan-university",
+      "destination": "/information/bsc-2nd-year-exam-routine-tribhuvan-university",
+      "statusCode": 308,
+      "regex": "^(?!/_next)/bsc-2nd-year-exam-routine-tribhuvan-university(?:/)?$"
+    },
+    {
+      "source": "/bbs-2nd-year-exam-routine-tribhuvan-university",
+      "destination": "/information/bbs-2nd-year-exam-routine-tribhuvan-university",
+      "statusCode": 308,
+      "regex": "^(?!/_next)/bbs-2nd-year-exam-routine-tribhuvan-university(?:/)?$"
+    },
+    {
+      "source": "/bbs-2nd-year-result-published-tu",
+      "destination": "/information/bbs-2nd-year-result-tribhuvan-university",
+      "statusCode": 308,
+      "regex": "^(?!/_next)/bbs-2nd-year-result-published-tu(?:/)?$"
+    },
+    {
+      "source": "/ba-1st-year-exam-center-tribhuvan-university",
+      "destination": "/information/ba-1st-year-exam-center-tribhuvan-university",
+      "statusCode": 308,
+      "regex": "^(?!/_next)/ba-1st-year-exam-center-tribhuvan-university(?:/)?$"
+    },
+    {
+      "source": "/ba-2nd-year-exam-center-tribhuvan-university",
+      "destination": "/information/ba-2nd-year-exam-center-tribhuvan-university",
+      "statusCode": 308,
+      "regex": "^(?!/_next)/ba-2nd-year-exam-center-tribhuvan-university(?:/)?$"
+    },
+    {
+      "source": "/mbs-and-mpa-2nd-semester-exam-routine-tu-fom",
+      "destination": "/information/mbs-and-mpa-2nd-semester-exam-routine-tu-fom",
+      "statusCode": 308,
+      "regex": "^(?!/_next)/mbs-and-mpa-2nd-semester-exam-routine-tu-fom(?:/)?$"
+    },
+    {
+      "source": "/bsc-csit-1st-semester-exam-form-fill-up-notice-tu-iost",
+      "destination": "/information/bsc-csit-1st-semester-exam-form-fill-up-notice-tu-iost",
+      "statusCode": 308,
+      "regex": "^(?!/_next)/bsc-csit-1st-semester-exam-form-fill-up-notice-tu-iost(?:/)?$"
+    },
+    {
+      "source": "/bsc-csit-6th-semester-exam-routine-tu-iost",
+      "destination": "/information/bsc-csit-6th-semester-exam-routine-tu-iost",
+      "statusCode": 308,
+      "regex": "^(?!/_next)/bsc-csit-6th-semester-exam-routine-tu-iost(?:/)?$"
+    },
+    {
+      "source": "/bit-6th-semester-exam-routine-tu-iost",
+      "destination": "/information/bit-6th-semester-exam-routine-tu-iost",
+      "statusCode": 308,
+      "regex": "^(?!/_next)/bit-6th-semester-exam-routine-tu-iost(?:/)?$"
+    },
+    {
+      "source": "/bsc-3rd-year-exam-result-tribhuvan-university",
+      "destination": "/information/bsc-3rd-year-exam-result-tribhuvan-university",
+      "statusCode": 308,
+      "regex": "^(?!/_next)/bsc-3rd-year-exam-result-tribhuvan-university(?:/)?$"
+    },
+    {
+      "source": "/bsc-csit-6th-semester-exam-center-tu-iost",
+      "destination": "/information/bsc-csit-6th-semester-exam-center-tu-iost",
+      "statusCode": 308,
+      "regex": "^(?!/_next)/bsc-csit-6th-semester-exam-center-tu-iost(?:/)?$"
+    },
+    {
+      "source": "/best-consultancy-in-nepal-for-denmark",
+      "destination": "/information/best-consultancy-in-nepal-for-denmark",
+      "statusCode": 308,
+      "regex": "^(?!/_next)/best-consultancy-in-nepal-for-denmark(?:/)?$"
+    },
+    {
+      "source": "/highest-visa-success-rate-consultancy-in-nepal",
+      "destination": "/information/highest-visa-success-rate-consultancy-in-nepal",
+      "statusCode": 308,
+      "regex": "^(?!/_next)/highest-visa-success-rate-consultancy-in-nepal(?:/)?$"
+    },
+    {
+      "source": "/best-consultancy-usa-nepal",
+      "destination": "/information/best-consultancy-in-nepal-for-usa",
+      "statusCode": 308,
+      "regex": "^(?!/_next)/best-consultancy-usa-nepal(?:/)?$"
+    },
+    {
+      "source": "/best-consultancy-for-australia-nepal",
+      "destination": "/information/best-consultancy-in-nepal-for-australia",
+      "statusCode": 308,
+      "regex": "^(?!/_next)/best-consultancy-for-australia-nepal(?:/)?$"
+    },
+    {
+      "source": "/best-consultancy-nepal-for-new-zealand",
+      "destination": "/information/best-consultancy-in-nepal-for-new-zealand",
+      "statusCode": 308,
+      "regex": "^(?!/_next)/best-consultancy-nepal-for-new-zealand(?:/)?$"
+    },
+    {
+      "source": "/best-consultancy-nepal-for-uk",
+      "destination": "/information/best-consultancy-in-nepal-for-uk",
+      "statusCode": 308,
+      "regex": "^(?!/_next)/best-consultancy-nepal-for-uk(?:/)?$"
+    },
+    {
+      "source": "/top-consultancy-nepal",
+      "destination": "/information/best-consultancy-in-nepal",
+      "statusCode": 308,
+      "regex": "^(?!/_next)/top-consultancy-nepal(?:/)?$"
+    },
+    {
+      "source": "/best-consultancy-for-canada-nepal",
+      "destination": "/information/best-consultancy-in-nepal-for-canada",
+      "statusCode": 308,
+      "regex": "^(?!/_next)/best-consultancy-for-canada-nepal(?:/)?$"
+    },
+    {
+      "source": "/best-ielts-institute-kathmandu",
+      "destination": "/information/best-ielts-classes-in-kathmandu",
+      "statusCode": 308,
+      "regex": "^(?!/_next)/best-ielts-institute-kathmandu(?:/)?$"
+    },
+    {
+      "source": "/best-pte-classes-kathmandu",
+      "destination": "/information/best-pte-classes-in-kathmandu",
+      "statusCode": 308,
+      "regex": "^(?!/_next)/best-pte-classes-kathmandu(?:/)?$"
+    },
+    {
+      "source": "/top-bbm-colleges-nepal",
+      "destination": "/information/best-bbm-colleges-in-nepal",
+      "statusCode": 308,
+      "regex": "^(?!/_next)/top-bbm-colleges-nepal(?:/)?$"
+    },
+    {
+      "source": "/top-bbs-colleges-nepal",
+      "destination": "/information/best-bbs-college-in-nepal",
+      "statusCode": 308,
+      "regex": "^(?!/_next)/top-bbs-colleges-nepal(?:/)?$"
+    },
+    {
+      "source": "/top-it-colleges-nepal",
+      "destination": "/information/best-it-colleges-in-nepal",
+      "statusCode": 308,
+      "regex": "^(?!/_next)/top-it-colleges-nepal(?:/)?$"
+    },
+    {
+      "source": "/top-bhm-colleges-nepal",
+      "destination": "/information/best-bhm-colleges-in-nepal",
+      "statusCode": 308,
+      "regex": "^(?!/_next)/top-bhm-colleges-nepal(?:/)?$"
+    },
+    {
+      "source": "/top-engineering-colleges-nepal",
+      "destination": "/information/best-engineering-colleges-in-nepal",
+      "statusCode": 308,
+      "regex": "^(?!/_next)/top-engineering-colleges-nepal(?:/)?$"
+    },
+    {
+      "source": "/top-bsc-csit-colleges-nepal",
+      "destination": "/information/best-bsc-csit-colleges-in-nepal",
+      "statusCode": 308,
+      "regex": "^(?!/_next)/top-bsc-csit-colleges-nepal(?:/)?$"
+    },
+    {
+      "source": "/top-bba-colleges-nepal",
+      "destination": "/information/best-bba-colleges-in-nepal",
+      "statusCode": 308,
+      "regex": "^(?!/_next)/top-bba-colleges-nepal(?:/)?$"
+    },
+    {
+      "source": "/top-bca-colleges-nepal",
+      "destination": "/information/best-bca-colleges-in-nepal",
+      "statusCode": 308,
+      "regex": "^(?!/_next)/top-bca-colleges-nepal(?:/)?$"
+    },
+    {
+      "source": "/best-bsw-colleges-nepal",
+      "destination": "/information/best-bsw-colleges-in-nepal",
+      "statusCode": 308,
+      "regex": "^(?!/_next)/best-bsw-colleges-nepal(?:/)?$"
+    },
+    {
+      "source": "/top-bit-colleges-nepal",
+      "destination": "/information/top-bit-colleges-in-nepal",
+      "statusCode": 308,
+      "regex": "^(?!/_next)/top-bit-colleges-nepal(?:/)?$"
+    },
+    {
+      "source": "/top-bim-colleges-nepal",
+      "destination": "/information/best-bim-colleges-in-nepal",
+      "statusCode": 308,
+      "regex": "^(?!/_next)/top-bim-colleges-nepal(?:/)?$"
+    },
+    {
+      "source": "/best-mbs-colleges-nepal",
+      "destination": "/information/best-mbs-colleges-in-nepal",
+      "statusCode": 308,
+      "regex": "^(?!/_next)/best-mbs-colleges-nepal(?:/)?$"
+    },
+    {
+      "source": "/top-mba-colleges-nepal",
+      "destination": "/top-mba-colleges-nepal/",
+      "statusCode": 308,
+      "regex": "^(?!/_next)/top-mba-colleges-nepal(?:/)?$"
+    },
+    {
+      "source": "/contact",
+      "destination": "/contact-us",
+      "statusCode": 308,
+      "regex": "^(?!/_next)/contact(?:/)?$"
+    },
+    {
+      "source": "/terms-and-conditions",
+      "destination": "/terms-of-use",
+      "statusCode": 308,
+      "regex": "^(?!/_next)/terms-and-conditions(?:/)?$"
+    },
+    {
+      "source": "/class-10-health-and-physical-education-model-question",
+      "destination": "/information/class-10-health-and-physical-education-model-question",
+      "statusCode": 308,
+      "regex": "^(?!/_next)/class-10-health-and-physical-education-model-question(?:/)?$"
+    },
+    {
+      "source": "/class-10-population-model-question",
+      "destination": "/best-pre-schools-kathmandu/",
+      "statusCode": 308,
+      "regex": "^(?!/_next)/class-10-population-model-question(?:/)?$"
+    },
+    {
+      "source": "/top-plus-two-science-colleges-nepal",
+      "destination": "/information/best-plus-2-science-colleges-in-kathmandu",
+      "statusCode": 308,
+      "regex": "^(?!/_next)/top-plus-two-science-colleges-nepal(?:/)?$"
+    },
+    {
+      "source": "/best-a-level-college-nepal",
+      "destination": "/information/best-a-level-college-in-nepal",
+      "statusCode": 308,
+      "regex": "^(?!/_next)/best-a-level-college-nepal(?:/)?$"
+    },
+    {
+      "source": "/top-plus-two-management-colleges-nepal",
+      "destination": "/information/best-plus-2-management-colleges-in-kathmandu",
+      "statusCode": 308,
+      "regex": "^(?!/_next)/top-plus-two-management-colleges-nepal(?:/)?$"
+    },
+    {
+      "source": "/top-plus-two-colleges-nepal",
+      "destination": "/information/best-plus-2-colleges-in-nepal",
+      "statusCode": 308,
+      "regex": "^(?!/_next)/top-plus-two-colleges-nepal(?:/)?$"
+    },
+    {
+      "source": "/top-plus-two-humanities-colleges-nepal",
+      "destination": "/information/best-plus-2-humanities-colleges-in-kathmandu",
+      "statusCode": 308,
+      "regex": "^(?!/_next)/top-plus-two-humanities-colleges-nepal(?:/)?$"
+    },
+    {
+      "source": "/top-plus-two-law-colleges-nepal",
+      "destination": "/information/best-plus-2-law-colleges-in-kathmandu",
+      "statusCode": 308,
+      "regex": "^(?!/_next)/top-plus-two-law-colleges-nepal(?:/)?$"
+    },
+    {
+      "source": "/class-10-population-model-question",
+      "destination": "/information/class-10-see-population-model-question",
+      "statusCode": 308,
+      "regex": "^(?!/_next)/class-10-population-model-question(?:/)?$"
+    },
+    {
+      "source": "/class-10-computer-model-question",
+      "destination": "/information/class-10-see-computer-model-question",
+      "statusCode": 308,
+      "regex": "^(?!/_next)/class-10-computer-model-question(?:/)?$"
+    },
+    {
+      "source": "/class-10-history-model-question",
+      "destination": "/information/class-10-see-history-model-question",
+      "statusCode": 308,
+      "regex": "^(?!/_next)/class-10-history-model-question(?:/)?$"
+    },
+    {
+      "source": "/class-10-opt-math-model-question",
+      "destination": "/information/class-10-see-opt-math-model-question",
+      "statusCode": 308,
+      "regex": "^(?!/_next)/class-10-opt-math-model-question(?:/)?$"
+    },
+    {
+      "source": "/class-10-see-social-model-question-neb",
+      "destination": "/information/class-10-see-social-model-question",
+      "statusCode": 308,
+      "regex": "^(?!/_next)/class-10-see-social-model-question-neb(?:/)?$"
+    },
+    {
+      "source": "/class-10-math-model-question",
+      "destination": "/information/class-10-see-math-model-question",
+      "statusCode": 308,
+      "regex": "^(?!/_next)/class-10-math-model-question(?:/)?$"
+    },
+    {
+      "source": "/class-10-english-model-question",
+      "destination": "/information/class-10-see-english-model-question",
+      "statusCode": 308,
+      "regex": "^(?!/_next)/class-10-english-model-question(?:/)?$"
+    },
+    {
+      "source": "/class-10-science-model-question",
+      "destination": "/information/class-10-see-science-model-question",
+      "statusCode": 308,
+      "regex": "^(?!/_next)/class-10-science-model-question(?:/)?$"
+    },
+    {
+      "source": "/class-10-account-model-question",
+      "destination": "/information/class-10-see-account-model-question",
+      "statusCode": 308,
+      "regex": "^(?!/_next)/class-10-account-model-question(?:/)?$"
+    },
+    {
+      "source": "/class-10-economics-model-question",
+      "destination": "/information/class-10-see-economics-model-question",
+      "statusCode": 308,
+      "regex": "^(?!/_next)/class-10-economics-model-question(?:/)?$"
+    },
+    {
+      "source": "/class-10-see-model-question",
+      "destination": "/information/class-10-see-model-questions",
+      "statusCode": 308,
+      "regex": "^(?!/_next)/class-10-see-model-question(?:/)?$"
+    },
+    {
+      "source": "/class-10-nepali-model-question",
+      "destination": "/information/class-10-see-nepali-model-question",
+      "statusCode": 308,
+      "regex": "^(?!/_next)/class-10-nepali-model-question(?:/)?$"
+    },
+    {
+      "source": "/class-11-model-questions",
+      "destination": "/information/class-11-model-questions",
+      "statusCode": 308,
+      "regex": "^(?!/_next)/class-11-model-questions(?:/)?$"
+    },
+    {
+      "source": "/class-11-biology-model-question",
+      "destination": "/information/class-11-biology-model-question",
+      "statusCode": 308,
+      "regex": "^(?!/_next)/class-11-biology-model-question(?:/)?$"
+    },
+    {
+      "source": "/class-11-chemistry-model-question",
+      "destination": "/information/class-11-chemistry-model-question",
+      "statusCode": 308,
+      "regex": "^(?!/_next)/class-11-chemistry-model-question(?:/)?$"
+    },
+    {
+      "source": "/class-11-business-studies-model-question",
+      "destination": "/information/class-11-business-studies-model-question",
+      "statusCode": 308,
+      "regex": "^(?!/_next)/class-11-business-studies-model-question(?:/)?$"
+    },
+    {
+      "source": "/class-11-physics-model-question",
+      "destination": "/information/class-11-physics-model-question",
+      "statusCode": 308,
+      "regex": "^(?!/_next)/class-11-physics-model-question(?:/)?$"
+    },
+    {
+      "source": "/class-11-english-model-question",
+      "destination": "/information/class-11-english-model-question",
+      "statusCode": 308,
+      "regex": "^(?!/_next)/class-11-english-model-question(?:/)?$"
+    },
+    {
+      "source": "/class-11-mathematics-model-question",
+      "destination": "/information/class-11-mathematics-model-question",
+      "statusCode": 308,
+      "regex": "^(?!/_next)/class-11-mathematics-model-question(?:/)?$"
+    },
+    {
+      "source": "/class-11-compulsory-social-studies-model-question",
+      "destination": "/information/class-11-social-studies-model-question",
+      "statusCode": 308,
+      "regex": "^(?!/_next)/class-11-compulsory-social-studies-model-question(?:/)?$"
+    },
+    {
+      "source": "/class-11-account-model-question",
+      "destination": "/information/class-10-see-account-model-question",
+      "statusCode": 308,
+      "regex": "^(?!/_next)/class-11-account-model-question(?:/)?$"
+    },
+    {
+      "source": "/class-11-nepali-model-question",
+      "destination": "/information/class-11-nepali-model-question",
+      "statusCode": 308,
+      "regex": "^(?!/_next)/class-11-nepali-model-question(?:/)?$"
+    },
+    {
+      "source": "/class-12-model-question-2080",
+      "destination": "/information/class-12-model-question-neb",
+      "statusCode": 308,
+      "regex": "^(?!/_next)/class-12-model-question-2080(?:/)?$"
+    },
+    {
+      "source": "/class-12-english-model-question",
+      "destination": "/information/class-12-english-model-question",
+      "statusCode": 308,
+      "regex": "^(?!/_next)/class-12-english-model-question(?:/)?$"
+    },
+    {
+      "source": "/class-12-nepali-model-question",
+      "destination": "/information/class-12-nepali-model-question",
+      "statusCode": 308,
+      "regex": "^(?!/_next)/class-12-nepali-model-question(?:/)?$"
+    },
+    {
+      "source": "/neb-class-12-finance-model-question",
+      "destination": "/information/neb-class-12-finance-model-question",
+      "statusCode": 308,
+      "regex": "^(?!/_next)/neb-class-12-finance-model-question(?:/)?$"
+    },
+    {
+      "source": "/neb-class-12-chemistry-model-question",
+      "destination": "/information/neb-class-12-chemistry-model-question",
+      "statusCode": 308,
+      "regex": "^(?!/_next)/neb-class-12-chemistry-model-question(?:/)?$"
+    },
+    {
+      "source": "/neb-class-12-biology-model-question",
+      "destination": "/information/neb-class-12-biology-model-question",
+      "statusCode": 308,
+      "regex": "^(?!/_next)/neb-class-12-biology-model-question(?:/)?$"
+    },
+    {
+      "source": "/neb-class-12-marketing-model-question",
+      "destination": "/information/neb-class-12-marketing-model-question",
+      "statusCode": 308,
+      "regex": "^(?!/_next)/neb-class-12-marketing-model-question(?:/)?$"
+    },
+    {
+      "source": "/neb-class-12-tourism-and-mountaineering-model-question",
+      "destination": "/information/class-12-tourism-and-mountaineering-model-question",
+      "statusCode": 308,
+      "regex": "^(?!/_next)/neb-class-12-tourism-and-mountaineering-model-question(?:/)?$"
+    },
+    {
+      "source": "/neb-class-12-math-model-question",
+      "destination": "/information/class-11-mathematics-model-question",
+      "statusCode": 308,
+      "regex": "^(?!/_next)/neb-class-12-math-model-question(?:/)?$"
+    },
+    {
+      "source": "/neb-class-12-opt-english-model-question",
+      "destination": "/information/neb-class-12-opt-english-model-question",
+      "statusCode": 308,
+      "regex": "^(?!/_next)/neb-class-12-opt-english-model-question(?:/)?$"
+    },
+    {
+      "source": "/neb-class-12-opt-nepali-model-question",
+      "destination": "/information/neb-class-12-opt-nepali-model-question",
+      "statusCode": 308,
+      "regex": "^(?!/_next)/neb-class-12-opt-nepali-model-question(?:/)?$"
+    },
+    {
+      "source": "/neb-class-12-education-and-development-model-question",
+      "destination": "/information/class-12-education-and-development-model-question",
+      "statusCode": 308,
+      "regex": "^(?!/_next)/neb-class-12-education-and-development-model-question(?:/)?$"
+    },
+    {
+      "source": "/neb-class-12-health-and-physical-education-model-question",
+      "destination": "/information/class-12-health-and-physical-education-model-question",
+      "statusCode": 308,
+      "regex": "^(?!/_next)/neb-class-12-health-and-physical-education-model-question(?:/)?$"
+    },
+    {
+      "source": "/neb-class-12-nepalese-legal-system-model-question",
+      "destination": "/information/neb-class-12-nepalese-legal-system-model-question",
+      "statusCode": 308,
+      "regex": "^(?!/_next)/neb-class-12-nepalese-legal-system-model-question(?:/)?$"
+    },
+    {
+      "source": "/neb-class-12-civil-criminal-law-justice-model-question",
+      "destination": "/information/neb-class-12-civil-criminal-law-justice-model-question",
+      "statusCode": 308,
+      "regex": "^(?!/_next)/neb-class-12-civil-criminal-law-justice-model-question(?:/)?$"
+    },
+    {
+      "source": "/neb-class-12-legal-drafting-model-question",
+      "destination": "/information/neb-class-12-legal-drafting-model-question",
+      "statusCode": 308,
+      "regex": "^(?!/_next)/neb-class-12-legal-drafting-model-question(?:/)?$"
+    },
+    {
+      "source": "/neb-class-12-general-law-model-question",
+      "destination": "/information/neb-class-12-general-law-model-question",
+      "statusCode": 308,
+      "regex": "^(?!/_next)/neb-class-12-general-law-model-question(?:/)?$"
+    },
+    {
+      "source": "/neb-class-12-environmental-science-model-question",
+      "destination": "/information/neb-class-12-environmental-science-model-question",
+      "statusCode": 308,
+      "regex": "^(?!/_next)/neb-class-12-environmental-science-model-question(?:/)?$"
+    },
+    {
+      "source": "/neb-class-12-mass-communication-model-question",
+      "destination": "/information/neb-class-12-mass-communication-model-question",
+      "statusCode": 308,
+      "regex": "^(?!/_next)/neb-class-12-mass-communication-model-question(?:/)?$"
+    },
+    {
+      "source": "/neb-class-12-population-studies-model-question",
+      "destination": "/information/neb-class-12-population-studies-model-question",
+      "statusCode": 308,
+      "regex": "^(?!/_next)/neb-class-12-population-studies-model-question(?:/)?$"
+    },
+    {
+      "source": "/neb-class-12-hotel-management-model-question",
+      "destination": "/information/neb-class-12-hotel-management-model-question",
+      "statusCode": 308,
+      "regex": "^(?!/_next)/neb-class-12-hotel-management-model-question(?:/)?$"
+    },
+    {
+      "source": "/neb-class-12-business-studies-model-question",
+      "destination": "/information/class-12-business-studies-model-question",
+      "statusCode": 308,
+      "regex": "^(?!/_next)/neb-class-12-business-studies-model-question(?:/)?$"
+    },
+    {
+      "source": "/neb-class-12-pedagogy-model-question-2080",
+      "destination": "/information/neb-class-12-pedagogy-model-question",
+      "statusCode": 308,
+      "regex": "^(?!/_next)/neb-class-12-pedagogy-model-question-2080(?:/)?$"
+    },
+    {
+      "source": "/neb-class-12-economics-model-question",
+      "destination": "/information/neb-class-12-economics-model-question",
+      "statusCode": 308,
+      "regex": "^(?!/_next)/neb-class-12-economics-model-question(?:/)?$"
+    },
+    {
+      "source": "/neb-class-12-computer-model-question",
+      "destination": "/information/neb-class-12-computer-model-question",
+      "statusCode": 308,
+      "regex": "^(?!/_next)/neb-class-12-computer-model-question(?:/)?$"
+    },
+    {
+      "source": "/neb-class-12-physics-model-question",
+      "destination": "/information/neb-class-12-physics-model-question",
+      "statusCode": 308,
+      "regex": "^(?!/_next)/neb-class-12-physics-model-question(?:/)?$"
+    },
+    {
+      "source": "/neb-class-12-account-model-question",
+      "destination": "/information/class-12-account-model-question",
+      "statusCode": 308,
+      "regex": "^(?!/_next)/neb-class-12-account-model-question(?:/)?$"
+    },
+    {
+      "source": "/neb-class-12-social-studies-model-question",
+      "destination": "/information/neb-class-12-social-studies-model-question",
+      "statusCode": 308,
+      "regex": "^(?!/_next)/neb-class-12-social-studies-model-question(?:/)?$"
+    },
+    {
+      "source": "/ctevt-entrance-model-question-2080",
+      "destination": "/information/ctevt-entrance-model-question",
+      "statusCode": 308,
+      "regex": "^(?!/_next)/ctevt-entrance-model-question-2080(?:/)?$"
+    }
+  ],
+  "headers": [],
+  "dynamicRoutes": [
+    {
+      "page": "/college/gallery/[slug]",
+      "regex": "^/college/gallery/([^/]+?)(?:/)?$",
+      "routeKeys": {
+        "nxtPslug": "nxtPslug"
+      },
+      "namedRegex": "^/college/gallery/(?<nxtPslug>[^/]+?)(?:/)?$"
+    },
+    {
+      "page": "/college/[slug]",
+      "regex": "^/college/([^/]+?)(?:/)?$",
+      "routeKeys": {
+        "nxtPslug": "nxtPslug"
+      },
+      "namedRegex": "^/college/(?<nxtPslug>[^/]+?)(?:/)?$"
+    },
+    {
+      "page": "/course/[slug]",
+      "regex": "^/course/([^/]+?)(?:/)?$",
+      "routeKeys": {
+        "nxtPslug": "nxtPslug"
+      },
+      "namedRegex": "^/course/(?<nxtPslug>[^/]+?)(?:/)?$"
+    },
+    {
+      "page": "/event/gallery/[slug]",
+      "regex": "^/event/gallery/([^/]+?)(?:/)?$",
+      "routeKeys": {
+        "nxtPslug": "nxtPslug"
+      },
+      "namedRegex": "^/event/gallery/(?<nxtPslug>[^/]+?)(?:/)?$"
+    },
+    {
+      "page": "/event/[slug]",
+      "regex": "^/event/([^/]+?)(?:/)?$",
+      "routeKeys": {
+        "nxtPslug": "nxtPslug"
+      },
+      "namedRegex": "^/event/(?<nxtPslug>[^/]+?)(?:/)?$"
+    },
+    {
+      "page": "/gallery/[slug]",
+      "regex": "^/gallery/([^/]+?)(?:/)?$",
+      "routeKeys": {
+        "nxtPslug": "nxtPslug"
+      },
+      "namedRegex": "^/gallery/(?<nxtPslug>[^/]+?)(?:/)?$"
+    },
+    {
+      "page": "/information/[slug]",
+      "regex": "^/information/([^/]+?)(?:/)?$",
+      "routeKeys": {
+        "nxtPslug": "nxtPslug"
+      },
+      "namedRegex": "^/information/(?<nxtPslug>[^/]+?)(?:/)?$"
+    },
+    {
+      "page": "/university/[slug]",
+      "regex": "^/university/([^/]+?)(?:/)?$",
+      "routeKeys": {
+        "nxtPslug": "nxtPslug"
+      },
+      "namedRegex": "^/university/(?<nxtPslug>[^/]+?)(?:/)?$"
+    },
+    {
+      "page": "/[slug]",
+      "regex": "^/([^/]+?)(?:/)?$",
+      "routeKeys": {
+        "nxtPslug": "nxtPslug"
+      },
+      "namedRegex": "^/(?<nxtPslug>[^/]+?)(?:/)?$"
+    }
+  ],
+  "staticRoutes": [
+    {
+      "page": "/",
+      "regex": "^/(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/(?:/)?$"
+    },
+    {
+      "page": "/_not-found",
+      "regex": "^/_not\\-found(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/_not\\-found(?:/)?$"
+    },
+    {
+      "page": "/about-us",
+      "regex": "^/about\\-us(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/about\\-us(?:/)?$"
+    },
+    {
+      "page": "/contact-us",
+      "regex": "^/contact\\-us(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/contact\\-us(?:/)?$"
+    },
+    {
+      "page": "/favicon.ico",
+      "regex": "^/favicon\\.ico(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/favicon\\.ico(?:/)?$"
+    },
+    {
+      "page": "/gallery",
+      "regex": "^/gallery(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/gallery(?:/)?$"
+    },
+    {
+      "page": "/learnmore",
+      "regex": "^/learnmore(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/learnmore(?:/)?$"
+    },
+    {
+      "page": "/legal-notice",
+      "regex": "^/legal\\-notice(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/legal\\-notice(?:/)?$"
+    },
+    {
+      "page": "/membership",
+      "regex": "^/membership(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/membership(?:/)?$"
+    },
+    {
+      "page": "/privacy-policy",
+      "regex": "^/privacy\\-policy(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/privacy\\-policy(?:/)?$"
+    },
+    {
+      "page": "/see",
+      "regex": "^/see(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/see(?:/)?$"
+    },
+    {
+      "page": "/terms-of-use",
+      "regex": "^/terms\\-of\\-use(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/terms\\-of\\-use(?:/)?$"
+    }
+  ],
+  "dataRoutes": [],
+  "rsc": {
+    "header": "RSC",
+    "varyHeader": "RSC, Next-Router-State-Tree, Next-Router-Prefetch, Next-Router-Segment-Prefetch",
+    "prefetchHeader": "Next-Router-Prefetch",
+    "didPostponeHeader": "x-nextjs-postponed",
+    "contentTypeHeader": "text/x-component",
+    "suffix": ".rsc",
+    "prefetchSuffix": ".prefetch.rsc",
+    "prefetchSegmentHeader": "Next-Router-Segment-Prefetch",
+    "prefetchSegmentSuffix": ".segment.rsc",
+    "prefetchSegmentDirSuffix": ".segments"
+  },
+  "rewriteHeaders": {
+    "pathHeader": "x-nextjs-rewritten-path",
+    "queryHeader": "x-nextjs-rewritten-query"
+  },
+  "rewrites": []
+}

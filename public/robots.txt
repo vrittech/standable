@@ -1,0 +1,9 @@
+# *
+User-agent: *
+Allow: /
+
+# Host
+Host: https://www.collegeinfonepal.com
+
+# Sitemaps
+Sitemap: https://www.collegeinfonepal.com/sitemap.xml

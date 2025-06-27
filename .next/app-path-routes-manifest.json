@@ -1,0 +1,23 @@
+{
+  "/_not-found/page": "/_not-found",
+  "/favicon.ico/route": "/favicon.ico",
+  "/(notices)/about-us/page": "/about-us",
+  "/(notices)/membership/page": "/membership",
+  "/(notices)/legal-notice/page": "/legal-notice",
+  "/(notices)/privacy-policy/page": "/privacy-policy",
+  "/(notices)/terms-of-use/page": "/terms-of-use",
+  "/contact-us/page": "/contact-us",
+  "/gallery/page": "/gallery",
+  "/learnmore/page": "/learnmore",
+  "/gallery/[slug]/page": "/gallery/[slug]",
+  "/page": "/",
+  "/university/[slug]/page": "/university/[slug]",
+  "/(infoandevent)/event/gallery/[slug]/page": "/event/gallery/[slug]",
+  "/(infoandevent)/event/[slug]/page": "/event/[slug]",
+  "/(infoandevent)/information/[slug]/page": "/information/[slug]",
+  "/college/gallery/[slug]/page": "/college/gallery/[slug]",
+  "/college/[slug]/page": "/college/[slug]",
+  "/course/[slug]/page": "/course/[slug]",
+  "/[slug]/page": "/[slug]",
+  "/(results)/see/page": "/see"
+}

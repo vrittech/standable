@@ -1,0 +1,23 @@
+{
+  "/_not-found/page": "app/_not-found/page.js",
+  "/favicon.ico/route": "app/favicon.ico/route.js",
+  "/(notices)/about-us/page": "app/(notices)/about-us/page.js",
+  "/(notices)/membership/page": "app/(notices)/membership/page.js",
+  "/(notices)/legal-notice/page": "app/(notices)/legal-notice/page.js",
+  "/(notices)/privacy-policy/page": "app/(notices)/privacy-policy/page.js",
+  "/(notices)/terms-of-use/page": "app/(notices)/terms-of-use/page.js",
+  "/contact-us/page": "app/contact-us/page.js",
+  "/gallery/page": "app/gallery/page.js",
+  "/learnmore/page": "app/learnmore/page.js",
+  "/gallery/[slug]/page": "app/gallery/[slug]/page.js",
+  "/page": "app/page.js",
+  "/university/[slug]/page": "app/university/[slug]/page.js",
+  "/(infoandevent)/event/gallery/[slug]/page": "app/(infoandevent)/event/gallery/[slug]/page.js",
+  "/(infoandevent)/event/[slug]/page": "app/(infoandevent)/event/[slug]/page.js",
+  "/(infoandevent)/information/[slug]/page": "app/(infoandevent)/information/[slug]/page.js",
+  "/college/gallery/[slug]/page": "app/college/gallery/[slug]/page.js",
+  "/college/[slug]/page": "app/college/[slug]/page.js",
+  "/course/[slug]/page": "app/course/[slug]/page.js",
+  "/[slug]/page": "app/[slug]/page.js",
+  "/(results)/see/page": "app/(results)/see/page.js"
+}
